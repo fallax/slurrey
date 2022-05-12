@@ -1,1 +1,144 @@
-- test
+place-type:
+  - sands
+  - mews
+  - head
+  - wells
+place-type-negative:
+  - gulley
+  - ow
+  - end
+  - stumps
+feature-negative:
+  - ditch
+  - mire
+  - blight
+  - spill
+  - cross
+  - clump
+building-negative:
+  - barn
+verb-ing-negative:
+  - swerv
+  - geld
+  - slur
+  - slump
+  - froth
+  - cull
+  - skulk
+  - seep
+  - clamp
+  - sobb
+  - fritt
+animals-negative:
+  - swallow
+  - tadpole
+  - whelk
+  - crab
+  - gannet
+  - lice
+  - herring
+  - swine
+  - flounder
+  - thrush
+  - sprat
+plants-negative:
+  - linseed
+  - nettle
+  - sedge
+  - pease
+  - lichen
+  - bean
+substance-negative:
+  - scree
+  - slate
+  - char
+  - rubble
+adjectives-negative:
+  - leaden
+  - stricken
+  - prickly
+  - limp
+  - meek
+  - brackish
+  - flat
+  - gummy
+  - pasty
+  - numb
+  - damp
+le-negative:
+  - tremble
+  - dribble
+  - startle
+  - wrinkle
+  - piddle
+  - tinkle
+  - gristle
+  - bristle
+  - brittle
+er-negative:
+  - utter
+  - splatter
+  - shudder
+  - former
+  - bother
+age-negative:
+  - silage
+t-negative:
+  - bloat
+  - blot
+  - punnet
+  - gusset
+other:
+  - husk
+  - sulk
+  - flinch
+  - botch
+  - clench
+  - frump
+  - gland
+  - mote
+  - morte
+  - sneer
+  - splay
+  - dredge
+  - mange
+  - blamange
+  - horn
+syllable-negative:
+  - dim
+  - glum
+  - lax
+  - tox
+  - hoax
+  - sor
+  - pall
+  - yob
+  - draft
+  - pock
+  - must
+  - clog
+  - blot
+entire-negative:
+  - nitcoombe
+  - coombe head
+  - the chitterlings
+  - overton view
+  - plaintive mews
+  - tailings hill
+  - weald barrow
+  - hereforth
+  - erstwhile
+  - shroud
+  - maudlin
+  - blister
+  - shortley
+  - lardon
+  - low lea
+  - tawdry
+  - sinister
+  - gallstone
+  - helminth
+  - recently
+  - blackthumb
+  - catterwall
+  - the shingles
