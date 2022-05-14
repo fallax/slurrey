@@ -46,6 +46,22 @@ adjectives:
     - Whit
     - Black
     - Broad
+age:
+  prefix:
+    negative:
+      - Stunt
+      - Side
+      - Want
+      - Simp
+      - Dand
+      - Wast
+      - Man
+      - Aver
+      - Suffr
+      - Dot
+  suffix:
+    standard:
+      - age
 animals:
   negative:
     - Frog
@@ -112,33 +128,58 @@ animals:
     - hart
     - hound
 direction:
-  standard:
-    - West
-    - East
-    - North
-    - South
   negative:
     - Left
     - Right
     - Bottom
     - Under
     - Over
+  standard:
+    - West
+    - East
+    - North
+    - South
+en:
+  prefix:
+    negative:
+      - Burd
+      - Hast
+      - Bitt
+      - Barr
+      - Sick
+      - Sir
+      - Braz
+      - Fall
+      - Damp
+      - Chast
+      - Want
+      - Rip
+      - Brok
+      - Strick
+      - For
+      - Rott
+      - Bott
+      - Swoll
+      - Madd
+      - Bitum
+    standard:
+      - Gold
+      - Maid
+      - Brock
+  suffix:
+    negative:
+      - ening
+      - end
+    standard:
+      - enham
+      - enton
+      - enage
+      - en
+      - enhurst
+      - enden
+      - enholt
 er:
   prefix:
-    standard:
-      - Crabb
-      - Pand
-      - Pond
-      - Chold
-      - Brock
-      - Neth
-      - Crock
-      - Syd
-      - Dev
-      - Bow
-      - Wint
-      - Ov
-      - Ging
     negative:
       - Cind
       - Neut
@@ -175,7 +216,29 @@ er:
       - shudd
       - form
       - both
+    standard:
+      - Crabb
+      - Pand
+      - Pond
+      - Chold
+      - Brock
+      - Neth
+      - Crock
+      - Syd
+      - Dev
+      - Bow
+      - Wint
+      - Ov
+      - Ging
   suffix:
+    negative:
+      - erslaw
+      - er
+      - erley
+      - ering
+      - ersex
+      - erest
+      - ersham
     standard:
       - erfield
       - erwick
@@ -189,14 +252,6 @@ er:
       - ern
       - erbourne
       - erden
-    negative:
-      - erslaw
-      - er
-      - erley
-      - ering
-      - ersex
-      - erest
-      - ersham
 family-names:
   negative:
     - cromwell
@@ -215,6 +270,7 @@ family-names:
     - crouch
     - honeybucket
     - hohlraum
+    - mayhem
   positive:
     - windsor
     - beaumont
@@ -252,164 +308,6 @@ features:
     - spa
     - park
     - heath
-age:
-  suffix:
-    standard:
-      - age
-  prefix:
-    negative:
-      - Stunt
-      - Side
-      - Want
-      - Simp
-      - Dand
-      - Wast
-      - Man
-      - Aver
-      - Suffr
-      - Dot
-en:
-  suffix:
-    standard:
-      - enham
-      - enton
-      - enage
-      - en
-      - enhurst
-      - enden
-      - enholt
-    negative:
-      - ening
-      - end
-  prefix:
-    standard:
-      - Gold
-      - Maid
-      - Brock
-    negative:
-      - Burd
-      - Hast
-      - Bitt
-      - Barr
-      - Sick
-      - Sir
-      - Braz
-      - Fall
-      - Damp
-      - Chast
-      - Want
-      - Rip
-      - Brok
-      - Strick
-      - For
-      - Rott
-      - Bott
-      - Swoll
-      - Madd
-      - Bitum
-le:
-  suffix:
-    standard:
-      - le
-      - ling
-  prefix:
-    negative:
-      - tremb
-      - dribb
-      - start
-      - wrink
-      - pidd
-      - tink
-      - grist
-      - brist
-      - britt
-      - Shuff
-      - Stumb
-      - Dribb
-      - scrabb
-      - Wadd
-      - Warb
-      - Crumb
-      - Grumb
-      - Tang
-      - Sick
-ing:
-  suffix:
-    standard:
-      - ingley
-      - ingfield
-      - ington
-      - ingdean
-      - ingstoke
-      - ingford
-      - ington
-    negative:
-      - ingdong
-      - ingpile
-      - ingtoe
-      - ingmouth
-      - ingdrop
-      - inghurt
-  prefix:
-    standard:
-      - Lanc
-      - Rust
-      - Bull
-      - Ell
-      - Hayl
-      - Hann
-      - Ov
-      - Misl
-      - Nursl
-      - Bell
-      - Wort
-      - Wall
-      - Stubb
-      - Sherr
-    negative:
-      - Sulk
-      - Heck
-      - Crabb
-      - Whelk
-      - Dripp
-      - Stabb
-      - Bald
-      - Warn
-      - Wail
-      - Clos
-      - Wan
-      - Sink
-      - Erod
-      - Rasp
-      - Scrubb
-      - Sobb
-      - Seep
-      - Groan
-      - Wilt
-      - Creep
-      - Sodd
-      - Kill
-      - Crav
-      - Rav
-      - Shak
-      - Shap
-      - Shav
-      - Bill
-      - Pin
-      - Ebb
-      - Dumpl
-      - Dodd
-      - swerv
-      - geld
-      - slur
-      - slump
-      - froth
-      - cull
-      - skulk
-      - seep
-      - clamp
-      - sobb
-      - fritt
 funnysuffix:
   - cock
   - hoe
@@ -563,6 +461,109 @@ historic-people-surnames:
     - willi
     - stanley
     - collin
+ing:
+  prefix:
+    negative:
+      - Sulk
+      - Heck
+      - Crabb
+      - Whelk
+      - Dripp
+      - Stabb
+      - Bald
+      - Warn
+      - Wail
+      - Clos
+      - Wan
+      - Sink
+      - Erod
+      - Rasp
+      - Scrubb
+      - Sobb
+      - Seep
+      - Groan
+      - Wilt
+      - Creep
+      - Sodd
+      - Kill
+      - Crav
+      - Rav
+      - Shak
+      - Shap
+      - Shav
+      - Bill
+      - Pin
+      - Ebb
+      - Dumpl
+      - Dodd
+      - swerv
+      - geld
+      - slur
+      - slump
+      - froth
+      - cull
+      - skulk
+      - seep
+      - clamp
+      - sobb
+      - fritt
+    standard:
+      - Lanc
+      - Rust
+      - Bull
+      - Ell
+      - Hayl
+      - Hann
+      - Ov
+      - Misl
+      - Nursl
+      - Bell
+      - Wort
+      - Wall
+      - Stubb
+      - Sherr
+  suffix:
+    negative:
+      - ingdong
+      - ingpile
+      - ingtoe
+      - ingmouth
+      - ingdrop
+      - inghurt
+    standard:
+      - ingley
+      - ingfield
+      - ington
+      - ingdean
+      - ingstoke
+      - ingford
+      - ington
+le:
+  prefix:
+    negative:
+      - tremb
+      - dribb
+      - start
+      - wrink
+      - pidd
+      - tink
+      - grist
+      - brist
+      - britt
+      - Shuff
+      - Stumb
+      - Dribb
+      - scrabb
+      - Wadd
+      - Warb
+      - Crumb
+      - Grumb
+      - Tang
+      - Sick
+  suffix:
+    standard:
+      - le
+      - ling
 location-rural:
   negative:
     - gulley
@@ -794,30 +795,17 @@ structure-urban:
     - gatehouse
     - brewery
     - tannery
-terrain:
-  negative:
-    - scree
-    - slate
-    - char
-    - rubble
-    - silt
-    - mud
-  standard:
-    - stone
-    - chalk
-    - sand
-    - flint
 substance:
   negative:
     - Salt
     - Dust
     - Oil
-  standard:
-    - wood
   positive:
     - gold
     - silver
     - ivory
+  standard:
+    - wood
 suffix:
   - ham
   - field
@@ -842,6 +830,72 @@ suffix:
   - hurst
   - health
 syllables:
+  negative:
+    - dim
+    - glum
+    - lax
+    - tox
+    - hoax
+    - sor
+    - pall
+    - yob
+    - draft
+    - pock
+    - must
+    - clog
+    - blot
+    - Frump
+    - Crab
+    - Sulk
+    - Knacker
+    - Dim
+    - Snag
+    - Cling
+    - Drag
+    - Dreg
+    - Drug
+    - Limp
+    - Mange
+    - Gland
+    - Heck
+    - Burn
+    - Lung
+    - Strep
+    - Bran
+    - Tarry
+    - Burn
+    - Shun
+    - Wig
+    - Mould
+    - Brine
+    - Whinge
+    - Wretch
+    - Scat
+    - Mote
+    - Glum
+    - Grim
+    - Grime
+    - Wane
+    - Lump
+    - Scat
+    - Wind
+    - Pellet
+    - Itch
+    - Sag
+    - Fad
+    - Wilt
+    - Ditch
+    - Bind
+    - Shirk
+    - Rue
+    - Mug
+    - Wrong
+    - Ides
+    - Droop
+    - Sod
+    - Stodge
+    - Lewd
+    - Shad
   standard:
     - Bed
     - Bur
@@ -926,72 +980,19 @@ syllables:
     - Wex
     - Win
     - Ull
+terrain:
   negative:
-    - dim
-    - glum
-    - lax
-    - tox
-    - hoax
-    - sor
-    - pall
-    - yob
-    - draft
-    - pock
-    - must
-    - clog
-    - blot
-    - Frump
-    - Crab
-    - Sulk
-    - Knacker
-    - Dim
-    - Snag
-    - Cling
-    - Drag
-    - Dreg
-    - Drug
-    - Limp
-    - Mange
-    - Gland
-    - Heck
-    - Burn
-    - Lung
-    - Strep
-    - Bran
-    - Tarry
-    - Burn
-    - Shun
-    - Wig
-    - Mould
-    - Brine
-    - Whinge
-    - Wretch
-    - Scat
-    - Mote
-    - Glum
-    - Grim
-    - Grime
-    - Wane
-    - Lump
-    - Scat
-    - Wind
-    - Pellet
-    - Itch
-    - Sag
-    - Fad
-    - Wilt
-    - Ditch
-    - Bind
-    - Shirk
-    - Rue
-    - Mug
-    - Wrong
-    - Ides
-    - Droop
-    - Sod
-    - Stodge
-    - Lewd
-    - Shad
+    - scree
+    - slate
+    - char
+    - rubble
+    - silt
+    - mud
+  standard:
+    - stone
+    - chalk
+    - sand
+    - flint
 unknown:
   - Pendulous
   - Tourniquet
