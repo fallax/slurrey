@@ -1,0 +1,1077 @@
+adjectives:
+  negative:
+    - leaden
+    - stricken
+    - prickly
+    - limp
+    - meek
+    - brackish
+    - flat
+    - gummy
+    - pasty
+    - numb
+    - damp
+    - poor
+    - dull
+    - derelict
+    - Cold
+    - Shallow
+    - Least
+    - Raw
+    - Lesser
+    - Odd
+    - Sunk
+    - Grey
+    - Sour
+    - Rank
+    - Dead
+    - Narrow
+    - Loose
+    - Slow
+    - Mild
+    - Fat
+    - Bitter
+    - Petti
+    - Prickly
+    - Blind
+    - Sudden
+  standard:
+    - little
+    - lower
+    - upper
+    - High
+    - Old
+    - Ald
+    - Bent
+    - Whit
+    - Black
+    - Broad
+animals:
+  negative:
+    - Frog
+    - Newt
+    - Cod
+    - Eel
+    - Slug
+    - Snail
+    - Midge
+    - Rat
+    - Goat
+    - Swine
+    - Wasp
+    - Grub
+    - Worm
+    - Shrew
+    - Toad
+    - Goose
+    - Stork
+    - Basset
+    - Sow
+    - Tick
+    - Ant
+    - Swarm
+    - swallow
+    - tadpole
+    - whelk
+    - crab
+    - gannet
+    - lice
+    - herring
+    - flounder
+    - thrush
+    - sprat
+  positive:
+    - lark
+    - partridge
+    - badger
+    - mallard
+    - kingfisher
+    - grebe
+    - heron
+  standard:
+    - Bay
+    - Buck
+    - Fox
+    - Hare
+    - Stag
+    - Owl
+    - Ram
+    - crow
+    - raven
+    - hare
+    - boar
+    - dray
+    - ox
+    - fox
+    - buck
+    - hawk
+    - otter
+    - fish
+    - swan
+    - deer
+    - hart
+    - hound
+direction:
+  standard:
+    - West
+    - East
+    - North
+    - South
+  negative:
+    - Left
+    - Right
+    - Bottom
+    - Under
+    - Over
+er:
+  prefix:
+    standard:
+      - Crabb
+      - Pand
+      - Pond
+      - Chold
+      - Brock
+      - Neth
+      - Crock
+      - Syd
+      - Dev
+      - Bow
+      - Wint
+      - Ov
+      - Ging
+    negative:
+      - Cind
+      - Neut
+      - With
+      - Saunt
+      - Stagg
+      - Neth
+      - Emb
+      - Stutt
+      - Cadav
+      - Simp
+      - Bitt
+      - Dith
+      - Dand
+      - Lumb
+      - Blund
+      - Palav
+      - Ming
+      - Sick
+      - Slumb
+      - Cank
+      - Blist
+      - Smould
+      - Hamm
+      - Rod
+      - Scatt
+      - Lath
+      - Clatt
+      - Quav
+      - Simm
+      - Bugg
+      - Cast
+      - utt
+      - shudd
+      - form
+      - both
+  suffix:
+    standard:
+      - erfield
+      - erwick
+      - ershill
+      - erford
+      - erage
+      - er
+      - erton
+      - erwell
+      - erley
+      - ern
+      - erbourne
+      - erden
+    negative:
+      - erslaw
+      - er
+      - erley
+      - ering
+      - ersex
+      - erest
+      - ersham
+family-names:
+  negative:
+    - cromwell
+    - fawkes
+    - chamberlain
+    - coward
+    - dispencer
+    - zoster
+    - hencewith
+    - forthwith
+    - burden
+    - gore
+    - bitumen
+    - blackwater
+    - dander
+    - crouch
+    - honeybucket
+    - hohlraum
+  positive:
+    - windsor
+    - beaumont
+    - devereaux
+    - penrose
+    - willoughby
+  standard:
+    - alton
+    - flambard
+    - billing
+    - botton
+    - brean
+    - clarence
+    - crealy
+    - dingle
+    - drayton
+    - hollycombe
+    - lightwater
+    - oakwood
+    - thorpe
+    - twinlake
+    - loudoun
+features:
+  negative:
+    - ditch
+    - mire
+    - blight
+    - spill
+    - cross
+    - clump
+  standard:
+    - hill
+    - valley
+    - common
+    - spa
+    - park
+    - heath
+age:
+  suffix:
+    standard:
+      - age
+  prefix:
+    negative:
+      - Stunt
+      - Side
+      - Want
+      - Simp
+      - Dand
+      - Wast
+      - Man
+      - Aver
+      - Suffr
+      - Dot
+en:
+  suffix:
+    standard:
+      - enham
+      - enton
+      - enage
+      - en
+      - enhurst
+      - enden
+      - enholt
+    negative:
+      - ening
+      - end
+  prefix:
+    standard:
+      - Gold
+      - Maid
+      - Brock
+    negative:
+      - Burd
+      - Hast
+      - Bitt
+      - Barr
+      - Sick
+      - Sir
+      - Braz
+      - Fall
+      - Damp
+      - Chast
+      - Want
+      - Rip
+      - Brok
+      - Strick
+      - For
+      - Rott
+      - Bott
+      - Swoll
+      - Madd
+      - Bitum
+le:
+  suffix:
+    standard:
+      - le
+      - ling
+  prefix:
+    negative:
+      - tremb
+      - dribb
+      - start
+      - wrink
+      - pidd
+      - tink
+      - grist
+      - brist
+      - britt
+      - Shuff
+      - Stumb
+      - Dribb
+      - scrabb
+      - Wadd
+      - Warb
+      - Crumb
+      - Grumb
+      - Tang
+      - Sick
+ing:
+  suffix:
+    standard:
+      - ingley
+      - ingfield
+      - ington
+      - ingdean
+      - ingstoke
+      - ingford
+      - ington
+    negative:
+      - ingdong
+      - ingpile
+      - ingtoe
+      - ingmouth
+      - ingdrop
+      - inghurt
+  prefix:
+    standard:
+      - Lanc
+      - Rust
+      - Bull
+      - Ell
+      - Hayl
+      - Hann
+      - Ov
+      - Misl
+      - Nursl
+      - Bell
+      - Wort
+      - Wall
+      - Stubb
+      - Sherr
+    negative:
+      - Sulk
+      - Heck
+      - Crabb
+      - Whelk
+      - Dripp
+      - Stabb
+      - Bald
+      - Warn
+      - Wail
+      - Clos
+      - Wan
+      - Sink
+      - Erod
+      - Rasp
+      - Scrubb
+      - Sobb
+      - Seep
+      - Groan
+      - Wilt
+      - Creep
+      - Sodd
+      - Kill
+      - Crav
+      - Rav
+      - Shak
+      - Shap
+      - Shav
+      - Bill
+      - Pin
+      - Ebb
+      - Dumpl
+      - Dodd
+      - swerv
+      - geld
+      - slur
+      - slump
+      - froth
+      - cull
+      - skulk
+      - seep
+      - clamp
+      - sobb
+      - fritt
+funnysuffix:
+  - cock
+  - hoe
+  - end
+  - dyke
+  - mire
+  - hearse
+  - dent
+  - cruft
+  - wood
+  - sex
+  - mash
+  - wallow
+  - low
+  - nest
+  - bottom
+  - break
+  - pork
+  - pelt
+  - wreck
+  - moth
+  - coot
+  - mint
+  - wart
+  - hurt
+given-names:
+  negative:
+    - shame
+    - gluttony
+    - dentine
+    - altimeter
+    - catheter
+    - raglan
+    - heave
+    - rennet
+    - retina
+    - withdrew
+    - bevel
+    - lanolin
+    - baryon
+    - knarl
+    - almond
+    - stave
+    - baleen
+    - favela
+    - flan
+    - latrine
+    - hazard
+    - cloret
+    - tabbard
+    - witherward
+    - barren
+    - litany
+    - curfew
+    - prion
+    - haslet
+    - histamine
+    - tarry
+    - curette
+    - ceefax
+    - araldite
+    - emnity
+    - annelid
+    - cilia
+    - myelin
+    - fontanelle
+    - petri
+    - schlemiel
+    - atonia
+    - avarice
+    - bolus
+    - median
+    - felony
+  positive:
+    - flora
+    - arabella
+    - henrietta
+    - beatrix
+    - annabelle
+    - hugo
+    - rupert
+    - alastair
+    - ambrose
+    - percy
+    - rollo
+    - spencer
+    - phillip
+    - henry
+    - george
+    - elizabeth
+    - charlotte
+    - margot
+    - arthur
+    - Margaret
+    - cecil
+    - winston
+    - tarquin
+    - beatrice
+    - josephine
+    - virginia
+    - dorcas
+  standard:
+    - susan
+    - derek
+    - dudley
+    - bob
+    - barry
+    - Dave
+    - Dennis
+    - Trevor
+    - Sarah
+    - Salad
+    - Robert
+    - john
+    - Peter
+    - Mary
+    - James
+    - Michael
+    - stuart
+    - shaun
+    - adam
+    - emma
+    - andrea
+    - brian
+    - deborah
+    - natalie
+    - kirsty
+    - tracey
+    - rebecca
+    - oliver
+    - andrew
+    - gary
+    - gregory
+    - jacqueline
+    - emily
+    - harriet
+    - laura
+historic-people-surnames:
+  positive:
+    - locke
+    - nelson
+    - churchill
+    - milton
+    - tennyson
+    - newton
+    - brunel
+    - keat
+    - wellington
+    - clarence
+    - osbourne
+    - willi
+    - stanley
+    - collin
+location-rural:
+  negative:
+    - gulley
+    - stumps
+    - waste
+    - ruin
+  standard:
+    - moor
+    - meadow
+    - forest
+    - orchard
+    - wood
+    - copse
+    - coppice
+    - hurst
+    - grove
+    - grange
+    - field
+    - croft
+    - cliff
+    - hill
+    - ridge
+    - down
+    - sea
+    - haven
+    - marsh
+    - valley
+    - dene
+    - combe
+    - coombe
+    - brook
+    - bourne
+    - marsh
+    - hedge
+    - heath
+    - common
+    - cross
+    - park
+    - lake
+    - pool
+location-urban:
+  negative:
+    - culvert
+  standard:
+    - harbour
+manual-place-names:
+  - Footmouth
+  - Whitsend
+  - Eggenham
+  - Hostage
+  - Rainingmen
+  - Undersell
+  - Beveridge
+  - Varicose
+  - nitcoombe
+  - coombe head
+  - the chitterlings
+  - overton view
+  - plaintive mews
+  - tailings hill
+  - weald barrow
+  - hereforth
+  - erstwhile
+  - shroud
+  - maudlin
+  - blister
+  - shortley
+  - lardon
+  - low lea
+  - tawdry
+  - sinister
+  - gallstone
+  - helminth
+  - recently
+  - blackthumb
+  - catterwall
+  - the shingles
+  - wadingford
+  - silage
+military-battles:
+  negative:
+    - dunkirk
+  standard:
+    - waterloo
+    - trafalgar
+    - normandy
+    - blenheim
+nonworking:
+  - Pariahston St. Susan
+  - dudleys harbour St. Sarah
+  - dudleysminster
+  - tennysonswallow
+  - Odddean
+  - Newtton Park
+  - chamberlainsmarsh
+  - phillipsbury
+  - Rawtree St. Derelict
+  - Ponderingmouth
+plants:
+  negative:
+    - ash
+    - Hop
+    - Pea
+    - Cress
+    - Nettle
+    - Thistle
+    - Bramble
+    - Clover
+    - Spurge
+    - Cabbage
+    - Sloe
+    - Turnip
+    - Marrow
+    - Spelt
+    - Burr
+    - linseed
+    - sedge
+    - pease
+    - lichen
+    - bean
+  positive:
+    - beech
+    - apple
+    - olive
+    - berry
+    - strawberry
+    - bramble
+    - willow
+    - yarrow
+    - fern
+    - furze
+    - rose
+    - myrtle
+    - bracken
+    - heather
+    - rosemary
+    - laurel
+    - laburnum
+    - honeysuckle
+    - bluebell
+    - chestnut
+    - fir
+  standard:
+    - alder
+    - oak
+    - rowan
+    - hazel
+    - ash
+    - linden
+    - hawthorn
+    - yew
+    - elm
+    - pine
+    - birch
+roadname:
+  - Lane
+  - Street
+  - Road
+  - Close
+  - Way
+  - Hill
+  - Drive
+  - Avenue
+  - Place
+  - Walk
+royalty:
+  - victoria
+  - albert
+  - alexandra
+  - elizabeth
+structure-rural:
+  negative:
+    - ruin
+  standard:
+    - barn
+    - beacon
+    - mill
+    - forge
+    - quarry
+    - kiln
+    - pound
+    - manor
+    - church
+    - chapel
+    - vicarage
+    - rectory
+    - parsonage
+    - priory
+    - abbey
+    - cemetery
+    - market
+    - lodge
+    - bridge
+    - well
+    - smith
+    - hall
+    - rookery
+    - school
+    - paddock
+    - farm
+    - wall
+structure-transport:
+  standard:
+    - ferry
+    - ford
+    - quay
+    - canal
+    - lock
+    - station
+structure-urban:
+  negative:
+    - crematorium
+    - butts
+    - gallows
+    - memorial
+  positive:
+    - university
+    - museum
+    - gallery
+    - college
+    - cathedral
+    - monument
+  standard:
+    - minster
+    - pier
+    - barrack
+    - castle
+    - gate
+    - gatehouse
+    - brewery
+    - tannery
+terrain:
+  negative:
+    - scree
+    - slate
+    - char
+    - rubble
+    - silt
+    - mud
+  standard:
+    - stone
+    - chalk
+    - sand
+    - flint
+substance:
+  negative:
+    - Salt
+    - Dust
+    - Oil
+  standard:
+    - wood
+  positive:
+    - gold
+    - silver
+    - ivory
+suffix:
+  - ham
+  - field
+  - marsh
+  - font
+  - leigh
+  - brook
+  - heath
+  - ford
+  - bury
+  - bridge
+  - tree
+  - bourne
+  - down
+  - dean
+  - well
+  - wick
+  - worth
+  - gate
+  - ton
+  - minster
+  - hurst
+  - health
+syllables:
+  standard:
+    - Bed
+    - Bur
+    - Beck
+    - Char
+    - Chor
+    - Craw
+    - Drab
+    - Dur
+    - Gor
+    - Lea
+    - Lin
+    - Hin
+    - Mal
+    - Mel
+    - Mote
+    - Win
+    - Pen
+    - Shal
+    - Sher
+    - Tid
+    - Thaw
+    - Thorn
+    - Chil
+    - Ast
+    - Bap
+    - Bar
+    - Blan
+    - Bor
+    - Bos
+    - Bow
+    - Bur
+    - Cal
+    - Chal
+    - Chil
+    - Cor
+    - Cas
+    - Cax
+    - Clan
+    - Comp
+    - Cox
+    - Den
+    - Did
+    - Dod
+    - Dun
+    - Edg
+    - En
+    - Ex
+    - Far
+    - Farn
+    - Faw
+    - Haw
+    - Har
+    - Hard
+    - Hay
+    - Hed
+    - Hol
+    - Hurs
+    - Lands
+    - Lang
+    - Lew
+    - Mar
+    - Mid
+    - Min
+    - Mil
+    - Net
+    - Nut
+    - Roe
+    - Rom
+    - Sel
+    - Shaw
+    - Stan
+    - Sut
+    - Tad
+    - Thurs
+    - Tun
+    - Wal
+    - War
+    - Wel
+    - Wig
+    - Wit
+    - Wex
+    - Win
+    - Ull
+  negative:
+    - dim
+    - glum
+    - lax
+    - tox
+    - hoax
+    - sor
+    - pall
+    - yob
+    - draft
+    - pock
+    - must
+    - clog
+    - blot
+    - Frump
+    - Crab
+    - Sulk
+    - Knacker
+    - Dim
+    - Snag
+    - Cling
+    - Drag
+    - Dreg
+    - Drug
+    - Limp
+    - Mange
+    - Gland
+    - Heck
+    - Burn
+    - Lung
+    - Strep
+    - Bran
+    - Tarry
+    - Burn
+    - Shun
+    - Wig
+    - Mould
+    - Brine
+    - Whinge
+    - Wretch
+    - Scat
+    - Mote
+    - Glum
+    - Grim
+    - Grime
+    - Wane
+    - Lump
+    - Scat
+    - Wind
+    - Pellet
+    - Itch
+    - Sag
+    - Fad
+    - Wilt
+    - Ditch
+    - Bind
+    - Shirk
+    - Rue
+    - Mug
+    - Wrong
+    - Ides
+    - Droop
+    - Sod
+    - Stodge
+    - Lewd
+    - Shad
+unknown:
+  - Pendulous
+  - Tourniquet
+  - husk
+  - sulk
+  - flinch
+  - botch
+  - clench
+  - frump
+  - gland
+  - mote
+  - morte
+  - sneer
+  - splay
+  - dredge
+  - mange
+  - blamange
+  - horn
+villageEnds:
+  - cot
+  - ridge
+  - bourne
+  - ton
+  - well
+  - ton
+  - ley
+  - sey
+  - ford
+  - worth
+  - bury
+  - hurst
+  - worth
+  - mead
+  - borough
+  - combe
+  - ham
+  - croft
+  - coombe
+  - hill
+  - field
+  - down
+  - dene
+  - coombe
+  - brook
+  - bourne
+  - marsh
+worker-rural:
+  negative:
+    - Peasant
+    - Serf
+    - Pauper
+    - Leper
+    - Pariah
+    - Heretic
+    - Harlot
+    - Pawn
+    - Fool
+    - Drunkard
+    - Vassal
+    - swindler
+    - bodger
+    - wanderer
+    - wrecker
+    - looter
+  standard:
+    - Chandler
+    - Weaver
+    - Thatcher
+    - Smith
+    - Abbot
+    - Bishop
+    - Monk
+    - Friar
+    - Tinner
+    - Parson
+worker-urban:
+  negative:
+    - smelter
+  standard:
+    - nurseryman
+    - alderman
+    - brewer
+    - tanner
