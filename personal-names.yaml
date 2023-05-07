@@ -16,7 +16,6 @@ given-names:
     - knarl
     - almond
     - stave
-    - baleen
     - favela
     - flan
     - latrine
@@ -40,10 +39,8 @@ given-names:
     - myelin
     - fontanelle
     - petri
-    - schlemiel
     - atonia
     - avarice
-    - bolus
     - median
     - felony
     - rubella
@@ -54,14 +51,11 @@ given-names:
     - stevia
     - olestra
     - yob
-    - lanolin
-    - bevel
     - retina
     - raglan
     - enamel
     - chamois
     - nicoise
-    - heave
     - cloaca
     - seethe
     - hernia
@@ -73,7 +67,6 @@ given-names:
     - malice
     - callus
     - gelatine
-    - agar
     - violent
     - celery
     - tissue
@@ -87,7 +80,6 @@ given-names:
     - fray
     - margarine
     - cellulose
-    - siesta
     - carton
     - maudlin
     - mohair
@@ -96,11 +88,8 @@ given-names:
     - florid
     - malaise
     - casserole
-    - harridan
     - headwind
-    - tarnish
     - wane
-    - ebb
     - prude
     - ulna
     - rhodesia
@@ -111,6 +100,22 @@ given-names:
     - sinus
     - grave
     - bonjela
+    - absentia
+    - chlorine
+    - punnet
+    - wallow
+    - phial
+    - ebb
+    - folly
+    - harlot
+    - deter
+    - heathen
+    - fawn
+    - harried
+    - falter
+    - hack
+    - omen
+    - alas
   positive:
     - flora
     - arabella
@@ -139,7 +144,7 @@ given-names:
     - josephine
     - virginia
     - dorcas
-standard:
+  standard:
     - susan
     - derek
     - dudley
@@ -161,7 +166,6 @@ standard:
     - emma
     - andrea
     - brian
-    - deborah
     - natalie
     - kirsty
     - tracey
@@ -174,11 +178,10 @@ standard:
     - emily
     - harriet
     - laura
+    - debbie
     - 'SUSAN'
     - 'JULIE'
     - 'KAREN'
-    - 'JACQUELINE'
-    - 'DEBORAH'
     - 'TRACEY'
     - 'JANE'
     - 'HELEN'
@@ -274,7 +277,100 @@ standard:
     - 'REBECCA'
     - 'SHEILA'
     - 'STEPHANIE'
-
+    - "DAVID"
+    - "PAUL"
+    - "ANDREW"
+    - "MARK"
+    - "JOHN"
+    - "MICHAEL"
+    - "STEPHEN"
+    - "IAN"
+    - "ROBERT"
+    - "RICHARD"
+    - "CHRIS"
+    - "PETER"
+    - "SIMON"
+    - "ANTHONY"
+    - "KEVIN"
+    - "GARY"
+    - "STEVEN"
+    - "MARTIN"
+    - "JAMES"
+    - "PHILIP"
+    - "ALAN"
+    - "NEIL"
+    - "NIGEL"
+    - "TIMOTHY"
+    - "COLIN"
+    - "GRAHAM"
+    - "JONATHAN"
+    - "NICHOLAS"
+    - "WILLIAM"
+    - "ADRIAN"
+    - "BRIAN"
+    - "STUART"
+    - "KEITH"
+    - "THOMAS"
+    - "PATRICK"
+    - "SEAN"
+    - "CARL"
+    - "TREVOR"
+    - "WAYNE"
+    - "SHAUN"
+    - "KENNETH"
+    - "BARRY"
+    - "DEREK"
+    - "DEAN"
+    - "RAYMOND"
+    - "ANTONY"
+    - "JEREMY"
+    - "JOSEPH"
+    - "EDWARD"
+    - "LEE"
+    - "TERENCE"
+    - "MATTHEW"
+    - "DANIEL"
+    - "GEORGE"
+    - "RUSSELL"
+    - "CHARLES"
+    - "JEFFREY"
+    - "CLIVE"
+    - "PHILLIP"
+    - "CRAIG"
+    - "ROGER"
+    - "JULIAN"
+    - "GEOFFREY"
+    - "KARL"
+    - "MALCOLM"
+    - "DARREN"
+    - "TONY"
+    - "ADAM"
+    - "ROBIN"
+    - "GARRY"
+    - "ROY"
+    - "VINCENT"
+    - "MOHAMMED"
+    - "GORDON"
+    - "DUNCAN"
+    - "LESLIE"
+    - "ALEXANDER"
+    - "GREGORY"
+    - "GARETH"
+    - "RONALD"
+    - "DOUGLAS"
+    - "FRANCIS"
+    - "STEWART"
+    - "GRAEME"
+    - "GUY"
+    - "TERRY"
+    - "ALLAN"
+    - "HOWARD"
+    - "JASON"
+    - "IAIN"
+    - "GLENN"
+    - "DENNIS"
+    - "GAVIN"
+    - "DOMINIC"
 family-names:
   other:
     - shindogu
@@ -319,6 +415,15 @@ family-names:
     - heap
     - clout
     - salad
+    - gall
+    - shill
+    - agar
+    - tarnish
+    - whine
+    - gross
+    - frown
+    - peevish
+    - harridan
   positive:
     - windsor
     - beaumont
@@ -344,13 +449,26 @@ family-names:
     - twinlake
     - watermouth
     - loudoun
+  motorway-services:
+    - pagnell
+    - chievely
+    - mimms
+    - sandbach
+    - tebay
+    - knutsford
+    - rownham
+    - hopwood
   frequent:
+    - Adams
     - Anderson
+    - Barker
     - Brown
     - Campbell
     - Clark
     - Clarke
+    - Coleman
     - Davies
+    - Dixon
     - Doherty
     - Edwards
     - Evans 
@@ -359,7 +477,9 @@ family-names:
     - Griffiths
     - Hall
     - Hamilton
+    - Hill
     - Hughes
+    - Hunter
     - Jackson
     - James
     - Johnson
@@ -377,9 +497,12 @@ family-names:
     - Morrison
     - Murphy
     - Murray
+    - Newman
     - "O'Neill"
     - Owen
+    - Palmer
     - Paterson
+    - Pearce
     - Phillips
     - Price
     - Rees
@@ -389,15 +512,21 @@ family-names:
     - Robertson
     - Robinson
     - Ross
+    - Russell
     - Scott
+    - Shaw
     - Smith
     - Stewart
     - Taylor
     - Thomas
     - Thompson
+    - Turner
     - Walker
+    - Ward
     - Watson
+    - Webb
     - White
+    - Wilkinson
     - Williams
     - Wilson
     - Wood
