@@ -1,3 +1,7 @@
+manual:
+  - Richard Charnock
+  - Chaise Long
+  - Lucy Morell
 given-names:
   negative:
     - shame
@@ -88,7 +92,6 @@ given-names:
     - florid
     - malaise
     - casserole
-    - headwind
     - wane
     - prude
     - ulna
@@ -116,6 +119,12 @@ given-names:
     - hack
     - omen
     - alas
+    - yoghurt
+    - threnody
+    - malady
+    - varicella
+    - regalia
+    - rotiserrie
   positive:
     - flora
     - arabella
@@ -292,7 +301,6 @@ given-names:
     - "SIMON"
     - "ANTHONY"
     - "KEVIN"
-    - "GARY"
     - "STEVEN"
     - "MARTIN"
     - "JAMES"
@@ -317,7 +325,7 @@ given-names:
     - "TREVOR"
     - "WAYNE"
     - "SHAUN"
-    - "KENNETH"
+    - "KEN"
     - "BARRY"
     - "DEREK"
     - "DEAN"
@@ -346,7 +354,6 @@ given-names:
     - "TONY"
     - "ADAM"
     - "ROBIN"
-    - "GARRY"
     - "ROY"
     - "VINCENT"
     - "MOHAMMED"
@@ -424,6 +431,11 @@ family-names:
     - frown
     - peevish
     - harridan
+    - headwinds
+    - bollard
+    - dredge
+    - scurry
+    - languish
   positive:
     - windsor
     - beaumont
@@ -436,7 +448,6 @@ family-names:
     - billing
     - botton
     - brean
-    - clarence
     - crealy
     - dingle
     - drayton
@@ -481,7 +492,6 @@ family-names:
     - Hughes
     - Hunter
     - Jackson
-    - James
     - Johnson
     - Johnston
     - Jones
