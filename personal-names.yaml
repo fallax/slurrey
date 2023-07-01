@@ -125,6 +125,11 @@ given-names:
     - varicella
     - regalia
     - rotiserrie
+    - norad
+    - turnip
+    - pilfer
+    - teeter
+    - satchel
   positive:
     - flora
     - arabella
@@ -436,6 +441,7 @@ family-names:
     - dredge
     - scurry
     - languish
+    - currant
   positive:
     - windsor
     - beaumont

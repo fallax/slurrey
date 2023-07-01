@@ -1,6 +1,35 @@
+country:
+  - Great Brittle
 county:
-  - slurrey
-  - artex
+  - Slurrey
+  - Artex
+  - Flummox
+manual-settlements:
+  - Dollop
+  - Trifle
+  - Flummery
+  - Crouton
+  - Eggenham
+  - Filling
+  - Crumble
+  - Shallot
+  - Radish
+manual-settlements-other:
+  - Bloodshot
+  - Low Barr
+  - Mercenary
+  - Awash
+  - Cosplay
+  - Piccalilli
+manual-roads:
+  - the chitterlings
+  - overton view
+  - plaintive mews
+  - tailings hill
+  - the shingles
+  - hardiman terrace
+  - sedge way
+  - thornside drive
 place-type:
   - sands
   - mews
