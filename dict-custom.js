@@ -417,5 +417,13 @@ dictionaries["anna"] = ["shame",
 'sorrow',
 'antipathy',
 'bugonia',
-'niggle'
+'niggle',
+'gristly',
+'sputum',
+'aloof',
+'devoid',
+'pallid',
+'dullard',
+'desist',
+'hassle'
 ];
