@@ -414,5 +414,8 @@ dictionaries["anna"] = ["shame",
 'languish',
 'dredge',
 'engulf',
-'sorrow'
+'sorrow',
+'antipathy',
+'bugonia',
+'niggle'
 ];

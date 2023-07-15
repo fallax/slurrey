@@ -2,6 +2,8 @@ manual:
   - Richard Charnock
   - Chaise Long
   - Lucy Morell
+  - Lee Delamere
+  - Dean Taunton
 given-names:
   negative:
     - shame
@@ -131,6 +133,8 @@ given-names:
     - teeter
     - satchel
     - cess
+    - codeine
+    - pleura
   positive:
     - flora
     - arabella
@@ -444,6 +448,8 @@ family-names:
     - languish
     - currant
     - torrent
+    - bellow
+    - arson
   positive:
     - windsor
     - beaumont
