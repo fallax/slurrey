@@ -12,6 +12,7 @@ dictionaries["anna"] = [
     "ant",
     "antipathy",
     "antithesis",
+    "apathy",
     "araldite",
     "arson",
     "artex",
@@ -299,6 +300,7 @@ dictionaries["anna"] = [
     "newt",
     "nicoise",
     "niggle",
+    "none",
     "numb",
     "odd",
     "offal",
@@ -377,6 +379,7 @@ dictionaries["anna"] = [
     "siesta",
     "silage",
     "silt",
+    "singed",
     "sinus",
     "slapdash",
     "slate",
@@ -475,5 +478,6 @@ dictionaries["anna"] = [
     "wretch",
     "wrong",
     "yob",
+    "zero",
     "zoster"
 ];
