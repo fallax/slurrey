@@ -14,6 +14,7 @@ manual-settlements:
   - Crumble
   - Shallot
   - Radish
+  - Chutney
   - 'Pickling Vinegar'
 manual-settlements-other:
   - Bloodshot
@@ -22,6 +23,12 @@ manual-settlements-other:
   - Awash
   - Cosplay
   - Piccalilli
+  - Crouch Downs
+manual-abroad:
+  - "Carafe, Spain"
+  - "Comedo, Italy"
+  - "Le Plague, France"
+  - "Elbo, Greece"
 manual-roads:
   - the chitterlings
   - overton view
@@ -31,6 +38,8 @@ manual-roads:
   - hardiman terrace
   - sedge way
   - thornside drive
+  - hastebury place
+  - gutter hall close
 place-type:
   - sands
   - mews
