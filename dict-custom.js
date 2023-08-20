@@ -505,6 +505,7 @@ dictionaries["anna"] = [
     "worm",
     "wretch",
     "wrong",
+    "xanthan",
     "yob",
     "zero",
     "zoster"
