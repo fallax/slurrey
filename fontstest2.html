@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        var names = {
+            "given-names": {
+                "negative": [
+                    "shame",
+                    "gluttony",
+                    "dentine",
+                    "altimeter",
+                    "catheter",
+                    "raglan",
+                    "heave",
+                    "rennet",
+                    "retina",
+                    "withdrew",
+                    "bevel",
+                    "lanolin",
+                    "baryon",
+                    "knarl",
+                    "almond",
+                    "stave",
+                    "favela",
+                    "flan",
+                    "latrine",
+                    "hazard",
+                    "cloret",
+                    "tabbard",
+                    "witherward",
+                    "barren",
+                    "litany",
+                    "curfew",
+                    "prion",
+                    "haslet",
+                    "histamine",
+                    "tarry",
+                    "curette",
+                    "ceefax",
+                    "araldite",
+                    "emnity",
+                    "annelid",
+                    "cilia",
+                    "myelin",
+                    "fontanelle",
+                    "petri",
+                    "atonia",
+                    "avarice",
+                    "median",
+                    "felony",
+                    "rubella",
+                    "favela",
+                    "baleen",
+                    "stave",
+                    "felony",
+                    "stevia",
+                    "olestra",
+                    "yob",
+                    "retina",
+                    "raglan",
+                    "enamel",
+                    "chamois",
+                    "nicoise",
+                    "cloaca",
+                    "seethe",
+                    "hernia",
+                    "haslet",
+                    "gannet",
+                    "rant",
+                    "grief",
+                    "artifice",
+                    "malice",
+                    "callus",
+                    "gelatine",
+                    "violent",
+                    "celery",
+                    "tissue",
+                    "vanilla",
+                    "countenance",
+                    "sinus",
+                    "leotard",
+                    "trivia",
+                    "thermos",
+                    "chance",
+                    "fray",
+                    "margarine",
+                    "cellulose",
+                    "carton",
+                    "maudlin",
+                    "mohair",
+                    "grayish",
+                    "cassette",
+                    "florid",
+                    "malaise",
+                    "casserole",
+                    "wane",
+                    "prude",
+                    "ulna",
+                    "rhodesia",
+                    "credenza",
+                    "chaise",
+                    "hessian",
+                    "shant",
+                    "sinus",
+                    "grave",
+                    "bonjela",
+                    "absentia",
+                    "chlorine",
+                    "punnet",
+                    "wallow",
+                    "phial",
+                    "ebb",
+                    "folly",
+                    "harlot",
+                    "deter",
+                    "heathen",
+                    "fawn",
+                    "harried",
+                    "falter",
+                    "hack",
+                    "omen",
+                    "alas",
+                    "yoghurt",
+                    "threnody",
+                    "malady",
+                    "varicella",
+                    "regalia",
+                    "rotiserrie",
+                    "norad",
+                    "turnip",
+                    "pilfer",
+                    "teeter",
+                    "satchel",
+                    "cess",
+                    "codeine",
+                    "pleura",
+                    "brawn",
+                    "drain",
+                    "vendetta",
+                    "alive",
+                    "dirge",
+                    "viscera",
+                    "glycerine",
+                    "janky",
+                    "linseed",
+                    "xanthan",
+                    "lawn"
+                ],
+                "positive": [
+                    "flora",
+                    "arabella",
+                    "henrietta",
+                    "beatrix",
+                    "annabelle",
+                    "hugo",
+                    "rupert",
+                    "alastair",
+                    "ambrose",
+                    "percy",
+                    "rollo",
+                    "spencer",
+                    "phillip",
+                    "henry",
+                    "george",
+                    "elizabeth",
+                    "charlotte",
+                    "margot",
+                    "arthur",
+                    "Margaret",
+                    "cecil",
+                    "winston",
+                    "tarquin",
+                    "beatrice",
+                    "josephine",
+                    "virginia",
+                    "dorcas",
+                    "ophelia"
+                ],
+                "standard": [
+                    "susan",
+                    "derek",
+                    "dudley",
+                    "bob",
+                    "barry",
+                    "Dave",
+                    "Dennis",
+                    "Trevor",
+                    "Sarah",
+                    "Robert",
+                    "john",
+                    "Peter",
+                    "Mary",
+                    "James",
+                    "Michael",
+                    "stuart",
+                    "shaun",
+                    "adam",
+                    "emma",
+                    "andrea",
+                    "brian",
+                    "natalie",
+                    "kirsty",
+                    "tracey",
+                    "rebecca",
+                    "oliver",
+                    "andrew",
+                    "gary",
+                    "gregory",
+                    "jacqueline",
+                    "emily",
+                    "harriet",
+                    "laura",
+                    "debbie",
+                    "SUSAN",
+                    "JULIE",
+                    "KAREN",
+                    "TRACEY",
+                    "JANE",
+                    "HELEN",
+                    "DIANE",
+                    "SHARON",
+                    "TRACY",
+                    "ANGELA",
+                    "SARAH",
+                    "ALISON",
+                    "CAROLINE",
+                    "AMANDA",
+                    "SANDRA",
+                    "LINDA",
+                    "CATHERINE",
+                    "ELIZABETH",
+                    "CAROL",
+                    "JOANNE",
+                    "WENDY",
+                    "JANET",
+                    "DAWN",
+                    "CHRISTINE",
+                    "NICOLA",
+                    "GILLIAN",
+                    "SALLY",
+                    "MARIA",
+                    "MICHELLE",
+                    "DEBRA",
+                    "PAULA",
+                    "ANNE",
+                    "LORRAINE",
+                    "PATRICIA",
+                    "MARY",
+                    "DENISE",
+                    "MARGARET",
+                    "ANN",
+                    "BEVERLEY",
+                    "DONNA",
+                    "ELAINE",
+                    "FIONA",
+                    "JENNIFER",
+                    "LESLEY",
+                    "LOUISE",
+                    "MANDY",
+                    "TINA",
+                    "JAYNE",
+                    "SUZANNE",
+                    "ANDREA",
+                    "PAULINE",
+                    "LISA",
+                    "CLAIRE",
+                    "KIM",
+                    "JULIA",
+                    "TERESA",
+                    "HEATHER",
+                    "KATHRYN",
+                    "LYNN",
+                    "RUTH",
+                    "YVONNE",
+                    "JUDITH",
+                    "MELANIE",
+                    "MARIE",
+                    "PAMELA",
+                    "CAROLE",
+                    "BARBARA",
+                    "GAIL",
+                    "LYNNE",
+                    "CLARE",
+                    "JANICE",
+                    "RACHEL",
+                    "JILL",
+                    "KATHERINE",
+                    "KATHLEEN",
+                    "SHIRLEY",
+                    "ANNETTE",
+                    "CAROLYN",
+                    "ANNA",
+                    "SARA",
+                    "VALERIE",
+                    "CHERYL",
+                    "JEANETTE",
+                    "KAY",
+                    "ANITA",
+                    "MAXINE",
+                    "FRANCES",
+                    "JOANNA",
+                    "THERESA",
+                    "DEBBIE",
+                    "LYNDA",
+                    "MAUREEN",
+                    "ROSEMARY",
+                    "MICHELE",
+                    "LAURA",
+                    "REBECCA",
+                    "SHEILA",
+                    "STEPHANIE",
+                    "DAVID",
+                    "PAUL",
+                    "ANDREW",
+                    "MARK",
+                    "JOHN",
+                    "MICHAEL",
+                    "STEPHEN",
+                    "IAN",
+                    "ROBERT",
+                    "RICHARD",
+                    "CHRIS",
+                    "PETER",
+                    "SIMON",
+                    "ANTHONY",
+                    "KEVIN",
+                    "STEVEN",
+                    "MARTIN",
+                    "JAMES",
+                    "PHILIP",
+                    "ALAN",
+                    "NEIL",
+                    "NIGEL",
+                    "TIMOTHY",
+                    "COLIN",
+                    "GRAHAM",
+                    "JONATHAN",
+                    "NICHOLAS",
+                    "WILLIAM",
+                    "ADRIAN",
+                    "BRIAN",
+                    "STUART",
+                    "KEITH",
+                    "THOMAS",
+                    "PATRICK",
+                    "SEAN",
+                    "CARL",
+                    "TREVOR",
+                    "WAYNE",
+                    "SHAUN",
+                    "KEN",
+                    "BARRY",
+                    "DEREK",
+                    "DEAN",
+                    "RAYMOND",
+                    "ANTONY",
+                    "JEREMY",
+                    "JOSEPH",
+                    "EDWARD",
+                    "LEE",
+                    "TERENCE",
+                    "MATTHEW",
+                    "DANIEL",
+                    "GEORGE",
+                    "RUSSELL",
+                    "CHARLES",
+                    "JEFFREY",
+                    "CLIVE",
+                    "PHILLIP",
+                    "CRAIG",
+                    "ROGER",
+                    "JULIAN",
+                    "GEOFFREY",
+                    "KARL",
+                    "MALCOLM",
+                    "DARREN",
+                    "TONY",
+                    "ADAM",
+                    "ROBIN",
+                    "ROY",
+                    "VINCENT",
+                    "MOHAMMED",
+                    "GORDON",
+                    "DUNCAN",
+                    "LESLIE",
+                    "ALEXANDER",
+                    "GREGORY",
+                    "GARETH",
+                    "RONALD",
+                    "DOUGLAS",
+                    "FRANCIS",
+                    "STEWART",
+                    "GRAEME",
+                    "GUY",
+                    "TERRY",
+                    "ALLAN",
+                    "HOWARD",
+                    "JASON",
+                    "IAIN",
+                    "GLENN",
+                    "DENNIS",
+                    "GAVIN",
+                    "DOMINIC"
+                ]
+            },
+            "family-names": {
+                "other": [
+                    "shindogu",
+                    "barbacoa",
+                    "clarinet"
+                ],
+                "negative": [
+                    "cromwell",
+                    "fawkes",
+                    "chamberlain",
+                    "coward",
+                    "dispencer",
+                    "zoster",
+                    "hencewith",
+                    "forthwith",
+                    "burden",
+                    "gore",
+                    "bitumen",
+                    "blackwater",
+                    "dander",
+                    "crouch",
+                    "honeybucket",
+                    "hohlraum",
+                    "mayhem",
+                    "flinch",
+                    "husk",
+                    "gland",
+                    "gall",
+                    "spent",
+                    "buckfast",
+                    "moult",
+                    "frill",
+                    "flake",
+                    "clampdown",
+                    "wiles",
+                    "beeching",
+                    "madden",
+                    "foyer",
+                    "ides",
+                    "moribund",
+                    "bland",
+                    "seabottom",
+                    "heap",
+                    "clout",
+                    "salad",
+                    "gall",
+                    "shill",
+                    "agar",
+                    "tarnish",
+                    "whine",
+                    "gross",
+                    "frown",
+                    "peevish",
+                    "harridan",
+                    "headwinds",
+                    "bollard",
+                    "dredge",
+                    "scurry",
+                    "languish",
+                    "currant",
+                    "torrent",
+                    "bellow",
+                    "arson",
+                    "seams",
+                    "flaw",
+                    "crater",
+                    "wellhard",
+                    "dross",
+                    "tallow",
+                    "grating",
+                    "lavatory",
+                    "swab"
+                ],
+                "positive": [
+                    "windsor",
+                    "beaumont",
+                    "devereaux",
+                    "penrose",
+                    "willoughby"
+                ],
+                "themepark": [
+                    "alton",
+                    "flambard",
+                    "billing",
+                    "botton",
+                    "brean",
+                    "crealy",
+                    "dingle",
+                    "drayton",
+                    "drummond",
+                    "hollycombe",
+                    "lightwater",
+                    "marwell",
+                    "oakwood",
+                    "thorpe",
+                    "twinlake",
+                    "watermouth",
+                    "loudoun"
+                ],
+                "motorway-services": [
+                    "pagnell",
+                    "chievely",
+                    "mimms",
+                    "sandbach",
+                    "tebay",
+                    "knutsford",
+                    "rownham",
+                    "hopwood"
+                ],
+                "frequent": [
+                    "Adams",
+                    "Anderson",
+                    "Barker",
+                    "Brown",
+                    "Campbell",
+                    "Clark",
+                    "Clarke",
+                    "Coleman",
+                    "Davies",
+                    "Dixon",
+                    "Doherty",
+                    "Edwards",
+                    "Evans",
+                    "Graham",
+                    "Green",
+                    "Griffiths",
+                    "Hall",
+                    "Hamilton",
+                    "Hill",
+                    "Hughes",
+                    "Hunter",
+                    "Jackson",
+                    "Johnson",
+                    "Johnston",
+                    "Jones",
+                    "Kelly",
+                    "Lewis",
+                    "MacDonald",
+                    "Martin",
+                    "McLaughlin",
+                    "Mitchell",
+                    "Moore",
+                    "Morgan",
+                    "Morris",
+                    "Morrison",
+                    "Murphy",
+                    "Murray",
+                    "Newman",
+                    "O'Neill",
+                    "Owen",
+                    "Palmer",
+                    "Paterson",
+                    "Pearce",
+                    "Phillips",
+                    "Price",
+                    "Rees",
+                    "Reid",
+                    "Richards",
+                    "Roberts",
+                    "Robertson",
+                    "Robinson",
+                    "Ross",
+                    "Russell",
+                    "Scott",
+                    "Shaw",
+                    "Smith",
+                    "Stewart",
+                    "Taylor",
+                    "Thomas",
+                    "Thompson",
+                    "Turner",
+                    "Walker",
+                    "Ward",
+                    "Watson",
+                    "Webb",
+                    "White",
+                    "Wilkinson",
+                    "Williams",
+                    "Wilson",
+                    "Wood",
+                    "Wright",
+                    "Young"
+                ]
+            }
+        }
+
+        var fonts = [
+            "Abril Fatface",
+            "Aladin",
+            "Albert Sans",
+            "Anta",
+            "Antic Slab",
+            "Archivo",
+            //"Arvo",
+            "Belgrano",
+            "Bellefair",
+            "Big Shoulders",
+            "Bokor",
+            "Cal Sans",
+            "Coda",
+            "Cormorant",
+            "Della Respira",
+            "Gabriela",
+            "Gloock",
+            "Iceberg",
+            "IM Fell",
+            "Imbue",
+            "Jolly Lodger",
+            "Lekton",
+            "Nixie",
+            "Pelagiad",
+            "Poiret One",
+            "Pompiere",
+            "Sorts Mill Goudy",
+            "SpecialElite",
+            "Squada One",
+            "Stardos Stencil",
+            "Stoke",
+            "Stylish",
+            "Tenor Sans",
+            "Tilda Sans",
+            "Uncial Antiqua",
+            "Voltaire",
+            "Ysabeau"
+        ];
+
+        var titles = [
+            "Selected Verse",
+            "Collected Works",
+            "Complete Poems",
+            "Anthology",
+            "Short Stories",
+            "A Time To Die",
+            "Painted Leopards",
+            "The Battle of Hope",
+            "In the Wake",
+            "Fly in the Ointment",
+            "Hardlight Firefight",
+            "The Midnight Hunt",
+            "No Time Like The Present",
+            "Dimension Chaos",
+            "Apogee Element",
+            "Dusts of Ganymede",
+            "Trevor in the Lake of Bones",
+            "The Shards of Nyquist",
+            "Old Hearts, Old Blood",
+            "The Needle in the Portrait",
+            "Fifteen Dusks",
+            "Tied at the Final Whistle",
+            "The Case of Ophelia Frown",
+            "Susan's Memory Tree",
+            "The Crown between the Pillars",
+            "A Pauper at the Feast",
+            "Lace Valley",
+            "Lie to the Letter",
+            "Nigel's Horse",
+            "Wild Symbols",
+            "My Sister's Lover",
+            "Doctor Zoster",
+            "Jealous Shaun",
+            "Eggenham Hall",
+            "The Journey of Mu",
+            "Cavendish's Venus"
+        ];
+
+        var colours = [
+            {
+                back: "#f8f9fa",
+                main: "#444",
+                alt: "#e22e2d"
+            },
+            {
+                back: "#000",
+                main: "#f0f0fb",
+                alt: "#aaa"
+            },
+            {
+                back: "#f04444",
+                main: "#f0f0fb",
+                alt: "#000"
+            },
+            {
+                back: "#c2d940",
+                main: "#251200",
+                alt: "#f0f0fb"
+            },
+            {
+                back: "#3a2f59",
+                main: "#fff037",
+                alt: "#fbfaf9"
+            },
+            {
+                back: "#eda141",
+                main: "#1c1408",
+                alt: "#9d3b00"
+            },
+            {
+                back: "#539137",
+                main: "#f6ffe3",
+                alt: "#a9c1c3"
+            },
+            {
+                back: "#971b37",
+                main: "#ffe3eb",
+                alt: "#ad8d8e"
+            },
+            {
+                back: "#04020f",
+                main: "#e8e7c4",
+                alt: "#d57341"
+            },
+            {
+                back: "#fefefe",
+                main: "#3f4b67",
+                alt: "#695928"
+            },
+            {
+                back: "#1c5571",
+                main: "#f8fff5",
+                alt: "#a29b69"
+            },
+            {
+                back: "#015954",
+                main: "#add3cd",
+                alt: "#000c06"
+            },
+            {
+                back: "#0a331c",
+                main: "#5bb956",
+                alt: "#f5f5f5"
+            },
+            {
+                back: "#f7ad68",
+                main: "#000608",
+                alt: "#5d6567"
+            },
+            {
+                back: "#232635",
+                main: "#e9e5e0",
+                alt: "#8390a2"
+            },
+            {
+                back: "#151918",
+                main: "#88cfe2",
+                alt: "#d2d8df"
+            },
+            {
+                back: "#5d190b",
+                main: "#ffe7c8",
+                alt: "#ffa483"
+            },
+            {
+                back: "#a7cedf",
+                main: "#790f26",
+                alt: "#1f3439"
+            },
+            {
+                back: "#8a7e65",
+                main: "#f8f1e3",
+                alt: "#383120"
+            },
+            {
+                back: "#d1fff6",
+                main: "#0f1718",
+                alt: "#141817"
+            },
+            {
+                back: "#989da0",
+                main: "#593579",
+                alt: "#edefbd"
+            },
+            {
+                back: "#49384c",
+                main: "#fffdf9",
+                alt: "#d6c09e"
+            },
+            {
+                back: "#d4e1bb",
+                main: "#26232d",
+                alt: "#1e79a0"
+            },
+            {
+                back: "#96aa77",
+                main: "#3d3d33",
+                alt: "#f3ebe1"
+            },
+            {
+                back: "#2f4440",
+                main: "#f8f6ec",
+                alt: "#e7bf39"
+            },
+            {
+                back: "#eee9e1",
+                main: "#f74f21",
+                alt: "#342e5f"
+            },
+            {
+                back: "#e7decb",
+                main: "#38363f",
+                alt: "#6c4941"
+            },
+            {   
+                back: "#f6f9f7",
+                main: "#224817",
+                alt: "#732321"
+            },
+            {
+                back: "#212855",
+                main: "#fafbff",
+                alt: "#a6add5"
+            },
+            {
+                back: "#f9fdfe",
+                main: "#09181c",
+                alt: "#68afd9"
+            }
+
+        ];
+
+        // Fisher-Yates Shuffle
+        function shuffle(array) {
+            var i = 0
+                , j = 0
+                , temp = null
+
+            for (i = array.length - 1; i > 0; i -= 1) {
+                j = Math.floor(Math.random() * (i + 1))
+                temp = array[i]
+                array[i] = array[j]
+                array[j] = temp
+            }
+        }
+
+        function titleCase(str) {
+            str = str.toLowerCase().split(' ');
+            for (var i = 0; i < str.length; i++) {
+                str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+            }
+            return str.join(' ');
+        }
+
+        function start() {
+            var bodyEl = document.getElementById("fnord");
+
+            shuffle(titles);
+            shuffle(names["given-names"].negative);
+            shuffle(names["given-names"].standard);
+            shuffle(names["family-names"].negative);
+            shuffle(names["family-names"].frequent);
+
+            for (var i = 0; i < Math.min(fonts.length, titles.length); i++) {
+
+                var colourset = Math.floor(Math.random() * colours.length);
+
+                var bookEl = document.createElement("div");
+                bookEl.style = "font-family:" + fonts[i] + "; background-color: " + colours[colourset].back + "; color: " + colours[colourset].main + ";";
+                bookEl.classList.add("book");
+
+                bookEl.classList.add("booktype" + Math.floor(Math.random() * 5));
+                bookEl.classList.add("layout" + Math.floor(Math.random() * 6));
+                
+
+                var containerEl = document.createElement("div");
+                containerEl.classList.add("container");
+                containerEl.classList.add("gradient" + Math.floor(Math.random() * 7));
+
+                var authorEl = document.createElement("div");
+                authorEl.classList.add("author");
+                var given = (i % 2 == 0) ? names["given-names"].negative[i] : names["given-names"].standard[i];
+                var family = (i % 2 == 0) ? names["family-names"].frequent[i] : names["family-names"].negative[i];
+
+                given = titleCase(given);
+                family = titleCase(family);                
+
+                var textEl = document.createTextNode(given + " " + family);
+                authorEl.appendChild(textEl);
+                 
+
+                var titleEl = document.createElement("div");
+                titleEl.classList.add("title");
+                var titleTextEl = document.createTextNode(titles[i]);
+                titleEl.appendChild(titleTextEl);
+
+                switch (Math.floor(Math.random() * 13))
+                {
+                    case 0: 
+                        containerEl.style="margin-top: 0.5em; margin-bottom: 0.5em; flex-grow: 0; background:" + colours[colourset].main + "; border: 8px solid " + colours[colourset].alt + "; border-left: none; border-right: none;";
+                        titleEl.style="color:" + colours[colourset].back;
+                        authorEl.style="color:" + colours[colourset].back;
+                        break;
+                    case 1:
+                        bookEl.style = "font-family:" + fonts[i] + "; background: linear-gradient(180deg, " + colours[colourset].back + " 0%, " + colours[colourset].alt + " 200%) !important;"
+                        containerEl.style="margin: 2em .5em; padding: .5em; text-align: center; flex-grow: 0; background: " + colours[colourset].main + "; border: 4px solid " + colours[colourset].alt + "; box-shadow: 4px 4px 8px 0px rgba(4, 4, 10, 0.5); ";
+                        titleEl.style="font-size: 90%; color:" + colours[colourset].back;
+                        authorEl.style="font-size: 70%; color:" + colours[colourset].back;
+                        break;
+                    default:
+                        authorEl.style="color:" + colours[colourset].alt;                    
+                }
+
+                if (i % 3 < 1) {
+                    containerEl.appendChild(authorEl);
+                    containerEl.appendChild(titleEl);
+                } else {
+                    containerEl.appendChild(titleEl);
+                    containerEl.appendChild(authorEl);
+                }
+
+                bookEl.appendChild(containerEl);
+                bodyEl.appendChild(bookEl);
+            }
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: "Imbue";
+            src: url('ofl-fonts/Imbue_72pt-SemiBold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "IM Fell";
+            src: url('ofl-fonts/IMFellFrenchCanon-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Poiret One";
+            src: url('ofl-fonts/PoiretOne-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Sorts Mill Goudy";
+            src: url('ofl-fonts/SortsMillGoudy-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stoke";
+            src: url('ofl-fonts/Stoke-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Ysabeau";
+            src: url('ofl-fonts/Ysabeau-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stardos Stencil";
+            src: url('ofl-fonts/StardosStencil-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Tenor Sans";
+            src: url('ofl-fonts/TenorSans-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Pompiere";
+            src: url('ofl-fonts/Pompiere-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "SpecialElite";
+            src: url('ofl-fonts/SpecialElite-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Lekton";
+            src: url('ofl-fonts/Lekton-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Nixie";
+            src: url('ofl-fonts/NixieOne-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Abril Fatface";
+            src: url('ofl-fonts/AbrilFatface-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Aladin";
+            src: url('ofl-fonts/Aladin-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Albert Sans";
+            src: url('ofl-fonts/AlbertSans-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Antic Slab";
+            src: url('ofl-fonts/AnticSlab-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Belgrano";
+            src: url('ofl-fonts/Belgrano-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Bellefair";
+            src: url('ofl-fonts/Bellefair-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Bokor";
+            src: url('ofl-fonts/Bokor-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Della Respira";
+            src: url('ofl-fonts/DellaRespira-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Gloock";
+            src: url('ofl-fonts/Gloock-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Iceberg";
+            src: url('ofl-fonts/Iceberg-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Jolly Lodger";
+            src: url('ofl-fonts/JollyLodger-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Squada One";
+            src: url('ofl-fonts/SquadaOne-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stylish";
+            src: url('ofl-fonts/Stylish-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Uncial Antiqua";
+            src: url('ofl-fonts/UncialAntiqua-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Voltaire";
+            src: url('ofl-fonts/Voltaire-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Archivo";
+            src: url('ofl-fonts/Archivo-SemiBold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Exo";
+            src: url('ofl-fonts/Exo2-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Anta";
+            src: url('ofl-fonts/Anta-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Pelagiad";
+            src: url('ofl-fonts/Pelagiad.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Gabriela";
+            src: url('ofl-fonts/Gabriela-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Cal Sans";
+            src: url('ofl-fonts/CalSans-SemiBold.ttf') format('truetype');
+        }
+
+
+        @font-face {
+            font-family: "Tilda Sans";
+            src: url('ofl-fonts/TildaSans-Bold.ttf') format('truetype');
+        }
+
+
+
+        @font-face {
+            font-family: "Arvo";
+            src: url('ofl-fonts/Arvo-Regular.ttf') format('truetype');
+        }
+
+
+
+
+        @font-face {
+            font-family: "Big Shoulders";
+            src: url('ofl-fonts/BigShouldersDisplay-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Coda";
+            src: url('ofl-fonts/Coda-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Cormorant";
+            src: url('ofl-fonts/Cormorant-Regular.ttf') format('truetype');
+        }
+
+
+        body {
+            font-size: 36px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            background-color: #d6d8db;
+        }
+
+        .book {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            height: 400px;
+            width: 250px;
+            max-height: 400px;
+            max-width: 250px;
+            margin-right: 50px;
+            margin-top: 50px;
+            border: 1px solid rgba(0, 0, 10, 0.5);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 10, 0.15);
+        }
+
+        .book .container
+        {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 100;
+            padding: 10px;
+            line-height: 1.1;
+        }
+
+        .author {
+            font-size: 28px;
+            margin: 0.25em 0;
+        }
+
+        .layout0, .layout0 .container {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .layout1, .layout1 .container {
+            text-align: center;
+            justify-content: space-evenly;
+            flex-grow: 100 !important;
+        }
+
+        .layout2 .container {
+            text-align: right;
+        }
+
+        .layout3 .container {
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+        .layout4,.layout4 .container {
+            justify-content: flex-end;
+        }
+
+        .booktype1 .author {
+            text-transform: uppercase;
+        }
+
+        .booktype2 .title {
+            font-variant-caps: small-caps;
+        }
+
+        .booktype3 .title {
+            font-weight: bold;
+        }
+
+        .booktype4 .title {
+            font-style: italic;
+        }
+
+        .gradient0 {
+            background-image: radial-gradient(circle, rgba(255, 238, 0, 0.15) 0%, rgba(238, 238, 0, 0) 150%);
+        }
+
+        .gradient1 {
+            background-image: linear-gradient(180deg, rgba(254, 252, 214, 0.15) 0%, rgba(238, 238, 0, 0) 100%);
+        }
+
+        .gradient2 {
+            background-image: linear-gradient(180deg, rgba(254, 252, 214, 0) 0%, rgba(104, 104, 164, 0.2) 100%)
+        }
+
+        .gradient3 {
+            background-image: radial-gradient(circle, rgba(255, 238, 0, 0.03) 0%, rgba(10, 0, 25, 0.2) 150%);
+        }
+
+
+        .gradient4 {
+            background-image: linear-gradient(180deg, rgba(22, 32, 214, 0) 0%, rgba(201, 104, 126, 0.25) 100%)
+        }
+
+        .gradient5 {
+            background-image: radial-gradient(circle, rgba(22, 32, 80, 0) 0%, rgba(22, 32, 80, 0.36) 150%);
+        }
+
+    </style>
+
+</head>
+
+<body onload="start()" id="fnord">
+
+</body>
+
+</html>
