@@ -152,7 +152,8 @@
                     "pessary",
                     "denial",
                     "dive",
-                    "lozenge"
+                    "lozenge",
+                    "innard"
                 ],
                 "positive": [
                     "flora",
@@ -1089,6 +1090,11 @@
                 back: "#4f6c6c",
                 main: "#f6e492",
                 alt: "#ebe6e5"
+            },
+            {
+                back: "#f0f0f2",
+                main: "#003080",
+                alt: "#f07020"
             }
 
         ];
@@ -1193,7 +1199,7 @@
             shuffle(names["family-names"].frequent);
 
             var colourchoices = Array.from({ length: colours.length }, (x, i) => i);
-            shuffle(colourchoices);
+            //shuffle(colourchoices);
 
             shuffle(titles);
             shuffle(fonts);
