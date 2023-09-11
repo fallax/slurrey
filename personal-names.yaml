@@ -144,6 +144,11 @@ given-names:
     - glycerine
     - janky
     - linseed
+    - xanthan
+    - lawn
+    - sack
+    - charcuterie
+    - pessary
   positive:
     - flora
     - arabella
@@ -172,6 +177,10 @@ given-names:
     - josephine
     - virginia
     - dorcas
+    - ophelia
+    - denial
+    - dive
+    - lozenge
   standard:
     - susan
     - derek
@@ -465,6 +474,25 @@ family-names:
     - wellhard
     - dross
     - tallow
+    - grating
+    - lavatory
+    - swab
+    - melt
+    - heritage
+    - gritty
+    - funnel
+    - gulley
+    - scalding
+    - plummet
+    - knotweed
+    - frantic
+    - "null"
+    - nought
+    - abrupt
+    - askew
+    - wrest
+    - gaunt
+    - pylon
   positive:
     - windsor
     - beaumont

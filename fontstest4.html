@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+
+        var names = {
+            "given-names": {
+                "negative": [
+                    "shame",
+                    "gluttony",
+                    "dentine",
+                    "altimeter",
+                    "catheter",
+                    "raglan",
+                    "heave",
+                    "rennet",
+                    "retina",
+                    "withdrew",
+                    "bevel",
+                    "lanolin",
+                    "baryon",
+                    "knarl",
+                    "almond",
+                    "stave",
+                    "favela",
+                    "flan",
+                    "latrine",
+                    "hazard",
+                    "cloret",
+                    "tabbard",
+                    "witherward",
+                    "barren",
+                    "litany",
+                    "curfew",
+                    "prion",
+                    "haslet",
+                    "histamine",
+                    "tarry",
+                    "curette",
+                    "ceefax",
+                    "araldite",
+                    "emnity",
+                    "annelid",
+                    "cilia",
+                    "myelin",
+                    "fontanelle",
+                    "petri",
+                    "atonia",
+                    "avarice",
+                    "median",
+                    "felony",
+                    "rubella",
+                    "favela",
+                    "baleen",
+                    "stave",
+                    "felony",
+                    "stevia",
+                    "olestra",
+                    "yob",
+                    "retina",
+                    "raglan",
+                    "enamel",
+                    "chamois",
+                    "nicoise",
+                    "cloaca",
+                    "seethe",
+                    "hernia",
+                    "haslet",
+                    "gannet",
+                    "rant",
+                    "grief",
+                    "artifice",
+                    "malice",
+                    "callus",
+                    "gelatine",
+                    "violent",
+                    "celery",
+                    "tissue",
+                    "vanilla",
+                    "countenance",
+                    "sinus",
+                    "leotard",
+                    "trivia",
+                    "thermos",
+                    "chance",
+                    "fray",
+                    "margarine",
+                    "cellulose",
+                    "carton",
+                    "maudlin",
+                    "mohair",
+                    "grayish",
+                    "cassette",
+                    "florid",
+                    "malaise",
+                    "casserole",
+                    "wane",
+                    "prude",
+                    "ulna",
+                    "rhodesia",
+                    "credenza",
+                    "chaise",
+                    "hessian",
+                    "shant",
+                    "sinus",
+                    "grave",
+                    "bonjela",
+                    "absentia",
+                    "chlorine",
+                    "punnet",
+                    "wallow",
+                    "phial",
+                    "ebb",
+                    "folly",
+                    "harlot",
+                    "deter",
+                    "heathen",
+                    "fawn",
+                    "harried",
+                    "falter",
+                    "hack",
+                    "omen",
+                    "alas",
+                    "yoghurt",
+                    "threnody",
+                    "malady",
+                    "varicella",
+                    "regalia",
+                    "rotiserrie",
+                    "norad",
+                    "turnip",
+                    "pilfer",
+                    "teeter",
+                    "satchel",
+                    "cess",
+                    "codeine",
+                    "pleura",
+                    "brawn",
+                    "drain",
+                    "vendetta",
+                    "alive",
+                    "dirge",
+                    "viscera",
+                    "glycerine",
+                    "janky",
+                    "linseed",
+                    "xanthan",
+                    "lawn",
+                    "charcuterie",
+                    "sack",
+                    "pessary",
+                    "denial",
+                    "dive",
+                    "lozenge"
+                ],
+                "positive": [
+                    "flora",
+                    "arabella",
+                    "henrietta",
+                    "beatrix",
+                    "annabelle",
+                    "hugo",
+                    "rupert",
+                    "alastair",
+                    "ambrose",
+                    "percy",
+                    "rollo",
+                    "spencer",
+                    "phillip",
+                    "henry",
+                    "george",
+                    "elizabeth",
+                    "charlotte",
+                    "margot",
+                    "arthur",
+                    "Margaret",
+                    "cecil",
+                    "winston",
+                    "tarquin",
+                    "beatrice",
+                    "josephine",
+                    "virginia",
+                    "dorcas",
+                    "ophelia"
+                ],
+                "standard": [
+                    "susan",
+                    "derek",
+                    "dudley",
+                    "bob",
+                    "barry",
+                    "Dave",
+                    "Dennis",
+                    "Trevor",
+                    "Sarah",
+                    "Robert",
+                    "john",
+                    "Peter",
+                    "Mary",
+                    "James",
+                    "Michael",
+                    "stuart",
+                    "shaun",
+                    "adam",
+                    "emma",
+                    "andrea",
+                    "brian",
+                    "natalie",
+                    "kirsty",
+                    "tracey",
+                    "rebecca",
+                    "oliver",
+                    "andrew",
+                    "gary",
+                    "gregory",
+                    "jacqueline",
+                    "emily",
+                    "harriet",
+                    "laura",
+                    "debbie",
+                    "SUSAN",
+                    "JULIE",
+                    "KAREN",
+                    "TRACEY",
+                    "JANE",
+                    "HELEN",
+                    "DIANE",
+                    "SHARON",
+                    "TRACY",
+                    "ANGELA",
+                    "SARAH",
+                    "ALISON",
+                    "CAROLINE",
+                    "AMANDA",
+                    "SANDRA",
+                    "LINDA",
+                    "CATHERINE",
+                    "ELIZABETH",
+                    "CAROL",
+                    "JOANNE",
+                    "WENDY",
+                    "JANET",
+                    "DAWN",
+                    "CHRISTINE",
+                    "NICOLA",
+                    "GILLIAN",
+                    "SALLY",
+                    "MARIA",
+                    "MICHELLE",
+                    "DEBRA",
+                    "PAULA",
+                    "ANNE",
+                    "LORRAINE",
+                    "PATRICIA",
+                    "MARY",
+                    "DENISE",
+                    "MARGARET",
+                    "ANN",
+                    "BEVERLEY",
+                    "DONNA",
+                    "ELAINE",
+                    "FIONA",
+                    "JENNIFER",
+                    "LESLEY",
+                    "LOUISE",
+                    "MANDY",
+                    "TINA",
+                    "JAYNE",
+                    "SUZANNE",
+                    "ANDREA",
+                    "PAULINE",
+                    "LISA",
+                    "CLAIRE",
+                    "KIM",
+                    "JULIA",
+                    "TERESA",
+                    "HEATHER",
+                    "KATHRYN",
+                    "LYNN",
+                    "RUTH",
+                    "YVONNE",
+                    "JUDITH",
+                    "MELANIE",
+                    "MARIE",
+                    "PAMELA",
+                    "CAROLE",
+                    "BARBARA",
+                    "GAIL",
+                    "LYNNE",
+                    "CLARE",
+                    "JANICE",
+                    "RACHEL",
+                    "JILL",
+                    "KATHERINE",
+                    "KATHLEEN",
+                    "SHIRLEY",
+                    "ANNETTE",
+                    "CAROLYN",
+                    "ANNA",
+                    "SARA",
+                    "VALERIE",
+                    "CHERYL",
+                    "JEANETTE",
+                    "KAY",
+                    "ANITA",
+                    "MAXINE",
+                    "FRANCES",
+                    "JOANNA",
+                    "THERESA",
+                    "DEBBIE",
+                    "LYNDA",
+                    "MAUREEN",
+                    "ROSEMARY",
+                    "MICHELE",
+                    "LAURA",
+                    "REBECCA",
+                    "SHEILA",
+                    "STEPHANIE",
+                    "DAVID",
+                    "PAUL",
+                    "ANDREW",
+                    "MARK",
+                    "JOHN",
+                    "MICHAEL",
+                    "STEPHEN",
+                    "IAN",
+                    "ROBERT",
+                    "RICHARD",
+                    "CHRIS",
+                    "PETER",
+                    "SIMON",
+                    "ANTHONY",
+                    "KEVIN",
+                    "STEVEN",
+                    "MARTIN",
+                    "JAMES",
+                    "PHILIP",
+                    "ALAN",
+                    "NEIL",
+                    "NIGEL",
+                    "TIMOTHY",
+                    "COLIN",
+                    "GRAHAM",
+                    "JONATHAN",
+                    "NICHOLAS",
+                    "WILLIAM",
+                    "ADRIAN",
+                    "BRIAN",
+                    "STUART",
+                    "KEITH",
+                    "THOMAS",
+                    "PATRICK",
+                    "SEAN",
+                    "CARL",
+                    "TREVOR",
+                    "WAYNE",
+                    "SHAUN",
+                    "KEN",
+                    "BARRY",
+                    "DEREK",
+                    "DEAN",
+                    "RAYMOND",
+                    "ANTONY",
+                    "JEREMY",
+                    "JOSEPH",
+                    "EDWARD",
+                    "LEE",
+                    "TERENCE",
+                    "MATTHEW",
+                    "DANIEL",
+                    "GEORGE",
+                    "RUSSELL",
+                    "CHARLES",
+                    "JEFFREY",
+                    "CLIVE",
+                    "PHILLIP",
+                    "CRAIG",
+                    "ROGER",
+                    "JULIAN",
+                    "GEOFFREY",
+                    "KARL",
+                    "MALCOLM",
+                    "DARREN",
+                    "TONY",
+                    "ADAM",
+                    "ROBIN",
+                    "ROY",
+                    "VINCENT",
+                    "MOHAMMED",
+                    "GORDON",
+                    "DUNCAN",
+                    "LESLIE",
+                    "ALEXANDER",
+                    "GREGORY",
+                    "GARETH",
+                    "RONALD",
+                    "DOUGLAS",
+                    "FRANCIS",
+                    "STEWART",
+                    "GRAEME",
+                    "GUY",
+                    "TERRY",
+                    "ALLAN",
+                    "HOWARD",
+                    "JASON",
+                    "IAIN",
+                    "GLENN",
+                    "DENNIS",
+                    "GAVIN",
+                    "DOMINIC"
+                ]
+            },
+            "family-names": {
+                "other": [
+                    "shindogu",
+                    "barbacoa",
+                    "clarinet"
+                ],
+                "negative": [
+                    "cromwell",
+                    "fawkes",
+                    "chamberlain",
+                    "coward",
+                    "dispencer",
+                    "zoster",
+                    "hencewith",
+                    "forthwith",
+                    "burden",
+                    "gore",
+                    "bitumen",
+                    "blackwater",
+                    "dander",
+                    "crouch",
+                    "honeybucket",
+                    "hohlraum",
+                    "mayhem",
+                    "flinch",
+                    "husk",
+                    "gland",
+                    "gall",
+                    "spent",
+                    "buckfast",
+                    "moult",
+                    "frill",
+                    "flake",
+                    "clampdown",
+                    "wiles",
+                    "beeching",
+                    "madden",
+                    "foyer",
+                    "ides",
+                    "moribund",
+                    "bland",
+                    "seabottom",
+                    "heap",
+                    "clout",
+                    "salad",
+                    "gall",
+                    "shill",
+                    "agar",
+                    "tarnish",
+                    "whine",
+                    "gross",
+                    "frown",
+                    "peevish",
+                    "harridan",
+                    "headwinds",
+                    "bollard",
+                    "dredge",
+                    "scurry",
+                    "languish",
+                    "currant",
+                    "torrent",
+                    "bellow",
+                    "arson",
+                    "seams",
+                    "flaw",
+                    "crater",
+                    "wellhard",
+                    "dross",
+                    "tallow",
+                    "grating",
+                    "lavatory",
+                    "swab",
+                    "heritage",
+                    "gritty",
+                    "funnel",
+                    "gulley",
+                    "scalding",
+                    "frantic",
+                    "gaunt",
+                    "wrest",
+                    "askew",
+                    "nought",
+                    "null",
+                    "pylon"
+                ],
+                "positive": [
+                    "windsor",
+                    "beaumont",
+                    "devereaux",
+                    "penrose",
+                    "willoughby"
+                ],
+                "themepark": [
+                    "alton",
+                    "flambard",
+                    "billing",
+                    "botton",
+                    "brean",
+                    "crealy",
+                    "dingle",
+                    "drayton",
+                    "drummond",
+                    "hollycombe",
+                    "lightwater",
+                    "marwell",
+                    "oakwood",
+                    "thorpe",
+                    "twinlake",
+                    "watermouth",
+                    "loudoun"
+                ],
+                "motorway-services": [
+                    "pagnell",
+                    "chievely",
+                    "mimms",
+                    "sandbach",
+                    "tebay",
+                    "knutsford",
+                    "rownham",
+                    "hopwood"
+                ],
+                "frequent": [
+                    "Adams",
+                    "Anderson",
+                    "Barker",
+                    "Brown",
+                    "Campbell",
+                    "Clark",
+                    "Clarke",
+                    "Coleman",
+                    "Davies",
+                    "Dixon",
+                    "Doherty",
+                    "Edwards",
+                    "Evans",
+                    "Graham",
+                    "Green",
+                    "Griffiths",
+                    "Hall",
+                    "Hamilton",
+                    "Hill",
+                    "Hughes",
+                    "Hunter",
+                    "Jackson",
+                    "Johnson",
+                    "Johnston",
+                    "Jones",
+                    "Kelly",
+                    "Lewis",
+                    "MacDonald",
+                    "Martin",
+                    "McLaughlin",
+                    "Mitchell",
+                    "Moore",
+                    "Morgan",
+                    "Morris",
+                    "Morrison",
+                    "Murphy",
+                    "Murray",
+                    "Newman",
+                    "O'Neill",
+                    "Owen",
+                    "Palmer",
+                    "Paterson",
+                    "Pearce",
+                    "Phillips",
+                    "Price",
+                    "Rees",
+                    "Reid",
+                    "Richards",
+                    "Roberts",
+                    "Robertson",
+                    "Robinson",
+                    "Ross",
+                    "Russell",
+                    "Scott",
+                    "Shaw",
+                    "Smith",
+                    "Stewart",
+                    "Taylor",
+                    "Thomas",
+                    "Thompson",
+                    "Turner",
+                    "Walker",
+                    "Ward",
+                    "Watson",
+                    "Webb",
+                    "White",
+                    "Wilkinson",
+                    "Williams",
+                    "Wilson",
+                    "Wood",
+                    "Wright",
+                    "Young"
+                ]
+            }
+        }
+
+        var fonts = [
+            "Abril Fatface",
+            "Aladin",
+            "Albert Sans",
+            "Anta",
+            "Antic Slab",
+            "Archivo",
+            //"Arvo",
+            "Belgrano",
+            "Bellefair",
+            "Big Shoulders",
+            "Bokor",
+            "Cal Sans",
+            "Coda",
+            "Cormorant",
+            "Della Respira",
+            "Gabriela",
+            "Gloock",
+            "Iceberg",
+            "IM Fell",
+            "Imbue",
+            "Jolly Lodger",
+            "Jost", /// test
+            "Lekton",
+            "Life Savers", /// test
+            "Nixie",
+            "Overpass",
+            "Pelagiad",
+            "Poiret One",
+            "Pompiere",
+            "Sorts Mill Goudy",
+            "Source Sans",
+            "SpecialElite",
+            "Squada One",
+            "Stardos Stencil",
+            "Stoke",
+            "Stylish",
+            "Tenor Sans",
+            "Tilda Sans",
+            "Uncial Antiqua",
+            "Voltaire",
+            "Ysabeau",
+            "Domine",
+            // "Stint",
+            "Viaoda Libre",
+            "Caudex",
+            "Space Mono"
+        ];
+
+        var titles = [
+            "Selected Verse",
+            "Collected Works",
+            "Complete Poems",
+            "Anthology",
+            "Short Stories",
+            "A Time To Die",
+            "Painted Leopards",
+            "The Battle of Hope",
+            "In the Wake",
+            "Fly in the Ointment",
+            "Hardlight Firefight",
+            "The Midnight Hunt",
+            "No Time Like The Present",
+            "Dimension Chaos",
+            "Apogee Element",
+            "Dusts of Ganymede",
+            "Trevor in the Lake of Bones",
+            "The Shards of Nyquist",
+            "Old Hearts, Old Blood",
+            "The Needle in the Portrait",
+            "Fifteen Dusks",
+            "Tied at the Final Whistle",
+            "The Case of Ophelia Frown",
+            "Susan's Memory Tree",
+            "The Crown between the Pillars",
+            "A Pauper at the Feast",
+            "Lace Valley",
+            "Lie to the Letter",
+            "Nigel's Horse",
+            "Wild Symbols",
+            "My Sister's Lover",
+            "Doctor Zoster",
+            "Jealous Shaun",
+            "Eggenham Hall",
+            "The Journey of Mu",
+            "Cavendish's Venus",
+            "A History of Spindlecraft",
+            "The Goats of the Vallavian Mountains",
+            "Nuxology: an Introduction",
+            "First Steps in Untangling",
+            "The 1000 Greatest Vanilla Artists",
+            "The Life of Lee Delamere",
+            "Modern Shotput",
+            "Walking Trips in the Parish of Basting",
+            "Training Your Millipede",
+            "The Big Book of Triangles",
+            "Butterhill Village Through The Ages",
+            "Roman Settlements across Great Brittle",
+            "The Encyclopedia of Cheeses",
+            "A First Course in Needle Welding",
+            "Introducing Para-psychography",
+            "Neo-Neutronian Architecture 1945-1979",
+            "A Year in Artex",
+            "My Own Mother",
+            "Knowing Arthur",
+            "How to Draw Pelargic Birds",
+            "The Machine of Grief",
+            "Triangulating the Day",
+            "Aria for Aries",
+            "Sixes and Nines",
+            "Answer on a Postcard",
+            "The Unburning Flame",
+            "The Crow Flies",
+            "Death's Door",
+            "Or For Worse",
+            "Badge of Honour",
+            "The Six Year's War",
+            "New Approaches in Buffalo Migration Studies",
+            "More Powerful Presentations",
+            "Hat Skills for Young Learners",
+            "A New Course in Sedimentary Rocks",
+            "Both Ways Around The World",
+            "Good Hair Design",
+            "How To Understand Your New Microwave",
+            "Mains Powered Apparatus Safety"
+        ];
+
+        var colours = [
+            // {
+            //         back: "#000",
+            //         main: "#f0f0fb",
+            //         alt: "#aaa"
+            //     },
+            {
+                back: "#9a1827",
+                main: "#fafcf0",
+                alt: "#d9a87d"
+            },
+            {
+                back: "#382522",
+                main: "#e9e4d6",
+                alt: "#ad4946"
+            },
+            {
+                back: "#093655",
+                main: "#b0dee8",
+                alt: "#92c202"
+            },
+            {
+                back: "#3a2f59",
+                main: "#fff037",
+                alt: "#fbfaf9"
+            },
+            {
+                back: "#fefefe",
+                main: "#3f4b67",
+                alt: "#695928"
+            },
+            {
+                back: "#1c5571",
+                main: "#f8fff5",
+                alt: "#a29b69"
+            },
+            {
+                back: "#251200",
+                main: "#c2d940",
+                alt: "#f0f0fb"
+            },
+            {
+                back: "#04020f",
+                main: "#e8e7c4",
+                alt: "#d57341"
+            },
+            {
+                back: "#f8f9fa",
+                main: "#e22e2d",
+                alt: "#444"
+            },
+
+            // {
+            //     back: "#f04444",
+            //     main: "#f0f0fb",
+            //     alt: "#000"
+            // },
+
+
+            {
+                back: "#eda141",
+                main: "#1c1408",
+                alt: "#9d3b00"
+            },
+            // {
+            //     back: "#539137",
+            //     main: "#f6ffe3",
+            //     alt: "#a9c1c3"
+            // },
+            // {
+            //     back: "#971b37",
+            //     main: "#ffe3eb",
+            //     alt: "#ad8d8e"
+            // },
+
+
+            // {
+            //     back: "#015954",
+            //     main: "#add3cd",
+            //     alt: "#000c06"
+            // },
+            {
+                back: "#0a331c",
+                main: "#5bb956",
+                alt: "#f5f5f5"
+            },
+            {
+                back: "#f7ad68",
+                main: "#000608",
+                alt: "#5d6567"
+            },
+            {
+                back: "#232635",
+                main: "#e9e5e0",
+                alt: "#8390a2"
+            },
+            {
+                back: "#151918",
+                main: "#88cfe2",
+                alt: "#d2d8df"
+            },
+            {
+                back: "#5d190b",
+                main: "#ffe7c8",
+                alt: "#ffa483"
+            },
+            {
+                back: "#a7cedf",
+                main: "#790f26",
+                alt: "#1f3439"
+            },
+            {
+                back: "#8a7e65",
+                main: "#f8f1e3",
+                alt: "#383120"
+            },
+            // {
+            //     back: "#d1fff6",
+            //     main: "#0f1718",
+            //     alt: "#141817"
+            // },
+            {
+                back: "#989da0",
+                main: "#593579",
+                alt: "#edefbd"
+            },
+            {
+                back: "#49384c",
+                main: "#fffdf9",
+                alt: "#d6c09e"
+            },
+            {
+                back: "#d4e1bb",
+                main: "#26232d",
+                alt: "#1e79a0"
+            },
+            {
+                back: "#96aa77",
+                main: "#3d3d33",
+                alt: "#f3ebe1"
+            },
+            {
+                back: "#2f4440",
+                main: "#f8f6ec",
+                alt: "#e7bf39"
+            },
+            {
+                back: "#eee9e1",
+                main: "#c73e30",
+                alt: "#342e5f"
+            },
+            {
+                back: "#e7decb",
+                main: "#38363f",
+                alt: "#6c4941"
+            },
+            {
+                back: "#f6f9f7",
+                main: "#224817",
+                alt: "#732321"
+            },
+            {
+                back: "#212855",
+                main: "#fafbff",
+                alt: "#a6add5"
+            },
+            {
+                back: "#f9fdfe",
+                main: "#09181c",
+                alt: "#68afd9"
+            },
+            {
+                back: "#00a897",
+                main: "#000100",
+                alt: "#cae858"
+            },
+            {
+                back: "#010101",
+                main: "#f9f4e8",
+                alt: "#ca136d"
+            },
+            {
+                back: "#370f32",
+                main: "#fa512d",
+                alt: "#c61736"
+            },
+            {
+                back: "#282425",
+                main: "#b1b060",
+                alt: "#28b3b9"
+            },
+            {
+                back: "#2e114b",
+                main: "#fcf1b1",
+                alt: "#e48b76"
+            },
+            {
+                back: "#f5ecdb",
+                main: "#241e1e",
+                alt: "#bd4367"
+            },
+            {
+                back: "#460f4e",
+                main: "#9cc6f4",
+                alt: "#fffcf0"
+            },
+            {
+                back: "#0b2160",
+                main: "#c73e30",
+                alt: "#eafcff"
+            },
+            {
+                back: "#6b5698",
+                main: "#fffeff",
+                alt: "#fee7d6"
+            },
+            // {
+            //     back: "#75acd3",
+            //     main: "#002b78",
+            //     alt: "#001320"
+            // },
+            {
+                back: "#343434",
+                main: "#91d58c",
+                alt: "#f1eef1"
+            },
+            {
+                back: "#2b4434",
+                main: "#fffbfb",
+                alt: "#bd6a33"
+            },
+            {
+                back: "#dbdbb5",
+                main: "#292520",
+                alt: "#4e8b4e"
+            },
+            {
+                back: "#2a6bb3",
+                main: "#fffefd",
+                alt: "#6db9a3"
+            },
+            {
+                back: "#205648",
+                main: "#f7e7ab",
+                alt: "#80924d"
+            },
+            {
+                back: "#3a363f",
+                main: "#ff55c8",
+                alt: "#bcc5d4"
+            },
+            // {
+            //     back: "#beddbd",
+            //     main: "#7667ac",
+            //     alt: "#202423"
+            // },
+            // {
+            //     back: "#273d47",
+            //     main: "#bea84c",
+            //     alt: "#bea84c"
+            // },
+            {
+                back: "#473b2d",
+                main: "#f8a224",
+                alt: "#a1b1a6"
+            },
+            {
+                back: "#4c9182",
+                main: "#c4d6c9",
+                alt: "#223d33"
+            },
+            {
+                back: "#693235",
+                main: "#5faeaf",
+                alt: "#f7aa72"
+            },
+
+
+            {
+                back: "#dfb059",
+                main: "#c01900",
+                alt: "#29497d"
+            },
+            {
+                back: "#473073",
+                main: "#bde148",
+                alt: "#aee6ee"
+            },
+            {
+                back: "#8bc0b7",
+                main: "#fcfcfc",
+                alt: "#6a2019"
+            },
+            {
+                back: "#61266a",
+                main: "#f691b1",
+                alt: "#b0a6ec"
+            },
+
+            {
+                back: "#211554",
+                main: "#74b921",
+                alt: "#dc1068"
+            },
+            // {
+            //     back: "#9ab4b1",
+            //     main: "#fdf500",
+            //     alt: "#3a4746"
+            // },
+            {
+                back: "#413a26",
+                main: "#ed7a1f",
+                alt: "#afab9b"
+            },
+            {
+                back: "#261f1a",
+                main: "#99b07a",
+                alt: "#ebcfc4"
+            },
+            {
+                back: "#493e51",
+                main: "#cabad9",
+                alt: "#6ee36b"
+            },
+            {
+                back: "#d84256",
+                main: "#ffd5c5",
+                alt: "#48273e"
+            },
+            {
+                back: "#a6cfd4",
+                main: "#e7502d",
+                alt: "#1d3b48"
+            },
+            {
+                back: "#041757",
+                main: "#ecb450",
+                alt: "#e5eef6"
+            },
+            {
+                back: "#030509",
+                main: "#d9d6c0",
+                alt: "#ab4e5c"
+            },
+            // {
+            //     back: "#dddcd6",
+            //     main: "#4731bf",
+            //     alt: "#3e4430"
+            // },
+            {
+                back: "#4f6c6c",
+                main: "#f6e492",
+                alt: "#ebe6e5"
+            }
+
+        ];
+
+        // Fisher-Yates Shuffle
+        function shuffle(array) {
+            var i = 0
+                , j = 0
+                , temp = null
+
+            for (i = array.length - 1; i > 0; i -= 1) {
+                j = Math.floor(Math.random() * (i + 1))
+                temp = array[i]
+                array[i] = array[j]
+                array[j] = temp
+            }
+        }
+
+        function titleCase(str) {
+            str = str.toLowerCase().split(' ');
+            for (var i = 0; i < str.length; i++) {
+                str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+            }
+            return str.join(' ');
+        }
+
+        // Split a node containing text into multiple spans of one word each
+        function splitText(rootEl) {
+            var text = rootEl.innerText;
+            rootEl.innerText = "";
+
+            var words = text.split(" ");
+            var lines = [""];
+
+            // Hacky approach to splitting things up into lines - better version would minimise RMS of line length
+            for (var word of words) {
+                if (word.length < 4 || lines[lines.length - 1].length < 4) {
+                    lines[lines.length - 1] = lines[lines.length - 1] + " " + word;
+                }
+                else {
+                    lines.push(word);
+                }
+            }
+
+            for (var line of lines) {
+                var span = document.createElement("span");
+                var text = document.createTextNode(line);
+                span.appendChild(text);
+                rootEl.appendChild(span);
+            }
+        }
+
+        // Wrap the existing text in a node in a span
+        function wrapText(rootEl) {
+            var text = rootEl.innerText;
+            rootEl.innerText = "";
+            var span = document.createElement("span");
+            var text = document.createTextNode(text);
+            span.appendChild(text);
+            rootEl.appendChild(span);
+        }
+
+        // Increase size of spans inside this until they fit the container
+        function fit(rootEl, maxSize) {
+            maxSize = maxSize ? maxSize : 48;
+            var children = rootEl.childNodes;
+            for (const node of children) {
+
+                // Skip any single lines that just consist of "The"
+                if (node.innerText == "The") { continue; }
+
+                if (node.getBoundingClientRect) {
+                    var size = 16;
+                    do {
+                        size++;
+                        node.style = "font-size: " + size + "px;";
+                    } while (node.getBoundingClientRect().height < (size * 1.5) && size < maxSize)
+                    node.style = "font-size: " + (size - 1) + "px;";
+                    var spacing = -0.1;
+                    do {
+                        spacing = spacing + 0.1;
+                        node.style = "font-size: " + (size - 1) + "px; letter-spacing: " + spacing + "px;";
+                    } while (node.getBoundingClientRect().height < (size * 1.5) && spacing < 0.9)
+                    node.style = "font-size: " + (size - 1) + "px; letter-spacing: " + (spacing - 0.1) + "px;";
+                }
+            }
+        }
+
+        function pick(list, i) {
+            return list[i % list.length];
+        }
+
+        function start() {
+            var bodyEl = document.getElementById("fnord");
+
+            window.toFit = [];
+
+
+            shuffle(names["given-names"].negative);
+            shuffle(names["given-names"].standard);
+            shuffle(names["family-names"].negative);
+            shuffle(names["family-names"].frequent);
+
+            var colourchoices = Array.from({ length: colours.length }, (x, i) => i);
+            shuffle(colourchoices);
+
+            shuffle(titles);
+            shuffle(fonts);
+
+            for (var i = 0; i < titles.length; i++) {
+
+                var colourset = colourchoices[i % colours.length];
+
+                var bookEl = document.createElement("div");
+                bookEl.style = "font-family:" + pick(fonts, i) + "; background-color: " + colours[colourset].back + "; color: " + colours[colourset].main + ";";
+                bookEl.classList.add("book");
+
+                bookEl.classList.add("booktype" + Math.floor(Math.random() * 5));
+                bookEl.classList.add("layout" + Math.floor(Math.random() * 6));
+
+
+                var containerEl = document.createElement("div");
+                containerEl.classList.add("container");
+                containerEl.classList.add("gradient" + Math.floor(Math.random() * 7));
+
+                var authorEl = document.createElement("div");
+                authorEl.classList.add("author");
+                var given = (i % 2 == 0) ? pick(names["given-names"].negative, i) : pick(names["given-names"].standard, i);
+                var family = (i % 2 == 0) ? pick(names["family-names"].frequent, i) : pick(names["family-names"].negative, i);
+
+                given = titleCase(given);
+                family = titleCase(family);
+
+                var textEl = document.createTextNode(given + " " + family);
+                authorEl.appendChild(textEl);
+
+
+                var titleEl = document.createElement("div");
+                titleEl.classList.add("title");
+                var titleTextEl = document.createTextNode(titles[i]);
+                titleEl.appendChild(titleTextEl);
+
+                var hrEl = document.createElement("hr");
+                hrEl.classList.add("divider");
+
+                if (Math.floor(Math.random() * 9) < 1) {
+                    hrEl.classList.add("dividerVisible");
+                }
+
+                switch (Math.floor(Math.random() * 13)) {
+                    case 0:
+                        containerEl.style = "margin-top: 0.5em; margin-bottom: 0.5em; flex-grow: 0; background:" + colours[colourset].main + "; border: 8px solid " + colours[colourset].alt + "; border-left: none; border-right: none;";
+                        titleEl.style = "color:" + colours[colourset].back;
+                        hrEl.style = "border: 2px solid " + colours[colourset].back;
+                        authorEl.style = "color:" + colours[colourset].back;
+                        break;
+                    case 1:
+                        bookEl.style = "font-family:" + pick(fonts, i) + "; background: linear-gradient(180deg, " + colours[colourset].back + " 0%, " + colours[colourset].alt + " 200%) !important;"
+                        containerEl.style = "margin: 1em .5em; text-align: center; flex-grow: 0; background: " + colours[colourset].main + "; border: 4px solid " + colours[colourset].alt + "; box-shadow: 4px 4px 8px 0px rgba(4, 4, 10, 0.5); ";
+                        titleEl.style = "font-size: 90%; color:" + colours[colourset].back;
+                        hrEl.style = "border: 2px solid " + colours[colourset].back;
+                        authorEl.style = "font-size: 70%; color:" + colours[colourset].back;
+                        break;
+                    default:
+                        authorEl.style = "color:" + colours[colourset].alt + ";";
+                        hrEl.style = "border: 2px solid " + colours[colourset].alt;
+                }
+
+                bookEl.appendChild(containerEl);
+                bodyEl.appendChild(bookEl);
+
+                if (i % 3 < 1) {
+                    containerEl.appendChild(authorEl);
+                    containerEl.appendChild(hrEl);
+                    containerEl.appendChild(titleEl);
+
+                    if (Math.floor(Math.random() * 5) < 3) {
+                        if (authorEl.innerText.length < 15) { wrapText(authorEl); } else { splitText(authorEl); }
+                        window.toFit.push(authorEl);
+                    }
+
+                    // Fit text if there are any very long words (>8 letters)
+                    if (titles[i].split(" ").some((title) => title.length > 8)) {
+                        splitText(titleEl);
+                        window.toFit.push(titleEl);
+                    }
+                } else {
+                    containerEl.appendChild(titleEl);
+                    containerEl.appendChild(hrEl);
+                    containerEl.appendChild(authorEl);
+
+
+                    if (titles[i].length < 13
+                        && !titles[i].split(" ").some((title) => title.length > 8)
+                    ) { wrapText(titleEl); } else { splitText(titleEl); }
+                    window.toFit.push(titleEl);
+
+
+                    if (authorEl.innerText.length < 15) {
+                        if (Math.floor(Math.random() * 5) < 3) {
+                            wrapText(authorEl);
+                            window.toFit.push(authorEl);
+                        }
+                    }
+                    else {
+                        if (Math.floor(Math.random() * 9) < 2) {
+                            splitText(authorEl);
+                            window.toFit.push(authorEl);
+                        }
+                    }
+                }
+            }
+
+            setTimeout(() => {
+                for (var el of window.toFit) {
+                    fit(el);
+                }
+            }, 50);
+
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: "Imbue";
+            src: url('ofl-fonts/Imbue_72pt-SemiBold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "IM Fell";
+            src: url('ofl-fonts/IMFellFrenchCanon-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Poiret One";
+            src: url('ofl-fonts/PoiretOne-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Sorts Mill Goudy";
+            src: url('ofl-fonts/SortsMillGoudy-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stoke";
+            src: url('ofl-fonts/Stoke-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Ysabeau";
+            src: url('ofl-fonts/Ysabeau-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stardos Stencil";
+            src: url('ofl-fonts/StardosStencil-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Tenor Sans";
+            src: url('ofl-fonts/TenorSans-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Pompiere";
+            src: url('ofl-fonts/Pompiere-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "SpecialElite";
+            src: url('ofl-fonts/SpecialElite-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Lekton";
+            src: url('ofl-fonts/Lekton-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Nixie";
+            src: url('ofl-fonts/NixieOne-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Abril Fatface";
+            src: url('ofl-fonts/AbrilFatface-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Aladin";
+            src: url('ofl-fonts/Aladin-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Albert Sans";
+            src: url('ofl-fonts/AlbertSans-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Antic Slab";
+            src: url('ofl-fonts/AnticSlab-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Belgrano";
+            src: url('ofl-fonts/Belgrano-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Bellefair";
+            src: url('ofl-fonts/Bellefair-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Bokor";
+            src: url('ofl-fonts/Bokor-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Della Respira";
+            src: url('ofl-fonts/DellaRespira-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Gloock";
+            src: url('ofl-fonts/Gloock-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Iceberg";
+            src: url('ofl-fonts/Iceberg-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Jolly Lodger";
+            src: url('ofl-fonts/JollyLodger-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Squada One";
+            src: url('ofl-fonts/SquadaOne-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stylish";
+            src: url('ofl-fonts/Stylish-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Uncial Antiqua";
+            src: url('ofl-fonts/UncialAntiqua-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Voltaire";
+            src: url('ofl-fonts/Voltaire-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Archivo";
+            src: url('ofl-fonts/Archivo-SemiBold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Exo";
+            src: url('ofl-fonts/Exo2-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Anta";
+            src: url('ofl-fonts/Anta-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Pelagiad";
+            src: url('ofl-fonts/Pelagiad.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Gabriela";
+            src: url('ofl-fonts/Gabriela-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Cal Sans";
+            src: url('ofl-fonts/CalSans-SemiBold.ttf') format('truetype');
+        }
+
+
+        @font-face {
+            font-family: "Tilda Sans";
+            src: url('ofl-fonts/TildaSans-Bold.ttf') format('truetype');
+        }
+
+
+
+        @font-face {
+            font-family: "Arvo";
+            src: url('ofl-fonts/Arvo-Regular.ttf') format('truetype');
+        }
+
+
+
+
+        @font-face {
+            font-family: "Big Shoulders";
+            src: url('ofl-fonts/BigShouldersDisplay-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Coda";
+            src: url('ofl-fonts/Coda-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Cormorant";
+            src: url('ofl-fonts/Cormorant-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Life Savers";
+            src: url('ofl-fonts/LifeSavers-Bold.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Jost";
+            src: url('ofl-fonts/Jost-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Overpass";
+            src: url('ofl-fonts/Overpass-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Source Sans";
+            src: url('ofl-fonts/SourceSans3-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Domine";
+            src: url('ofl-fonts/Domine-VariableFont_wght.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Stint";
+            src: url('ofl-fonts/StintUltraCondensed-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Viaoda Libre";
+            src: url('ofl-fonts/ViaodaLibre-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Caudex";
+            src: url('ofl-fonts/Caudex-Regular.ttf') format('truetype');
+        }
+
+        @font-face {
+            font-family: "Space Mono";
+            src: url('ofl-fonts/SpaceMono-Regular.ttf') format('truetype');
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        body {
+            font-size: 38px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            background-color: #d6d8db;
+        }
+
+        .book {
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            height: 400px;
+            width: 250px;
+            max-height: 400px;
+            max-width: 250px;
+            margin-right: 50px;
+            margin-top: 50px;
+            border: 1px solid rgba(0, 0, 10, 0.5);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 10, 0.15);
+        }
+
+        .book .container {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 100;
+            line-height: 1.1;
+        }
+
+        .author,
+        .title {
+            overflow-wrap: break-word;
+            hyphens: manual;
+            padding: 1rem 1rem;
+            line-height: 1.1;
+        }
+
+        .author>span,
+        .title>span {
+            display: block;
+        }
+
+        .author {
+            font-size: 30px;
+            margin: 0.25em 0;
+        }
+
+        .layout0,
+        .layout0 .container {
+            text-align: center;
+            justify-content: center;
+        }
+
+        .layout1,
+        .layout1 .container {
+            text-align: center;
+            justify-content: space-evenly;
+            flex-grow: 100 !important;
+        }
+
+        .layout2 .container {
+            text-align: right;
+        }
+
+        .layout3 .container {
+            justify-content: flex-end;
+            text-align: right;
+        }
+
+        .layout4,
+        .layout4 .container {
+            justify-content: flex-end;
+        }
+
+        .booktype1 .author {
+            text-transform: uppercase;
+        }
+
+        .booktype2 .title {
+            font-variant-caps: small-caps;
+        }
+
+        .booktype3 .title {
+            font-weight: bold;
+            text-shadow: 2px 2px 0 rgba(40, 40, 40, 0.5);
+        }
+
+        .booktype4 .title {
+            font-style: italic;
+        }
+
+        .gradient0 {
+            background-image: radial-gradient(circle, rgba(255, 238, 0, 0.15) 0%, rgba(238, 238, 0, 0) 150%);
+        }
+
+        .gradient1 {
+            background-image: linear-gradient(180deg, rgba(254, 252, 214, 0.2) 0%, rgba(238, 238, 0, 0) 100%);
+        }
+
+        .gradient2 {
+            background-image: linear-gradient(180deg, rgba(254, 252, 214, 0) 0%, rgba(104, 104, 164, 0.2) 100%)
+        }
+
+        .gradient3 {
+            background-image: radial-gradient(circle, rgba(255, 238, 0, 0.03) 0%, rgba(10, 0, 25, 0.2) 150%);
+        }
+
+
+        .gradient4 {
+            background-image: linear-gradient(180deg, rgba(22, 32, 214, 0) 0%, rgba(201, 104, 126, 0.25) 100%)
+        }
+
+        .gradient5 {
+            background-image: radial-gradient(circle, rgba(22, 32, 80, 0) 0%, rgba(22, 32, 80, 0.5) 150%);
+        }
+
+        .divider {
+            display: none;
+            width: 85%;
+        }
+
+        .dividerVisible {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body onload="start()" id="fnord">
+
+</body>
+
+</html>
