@@ -734,7 +734,10 @@
             "Both Ways Around The World",
             "Good Hair Design",
             "How To Understand Your New Microwave",
-            "Mains Powered Apparatus Safety"
+            "Mains Powered Apparatus Safety",
+            "1001 Great Pasta Dishes",
+            "More Melodies for Intermediate Clarinet",
+            "Measuring Overhead Catenary Voltages"
         ];
 
         var colours = [
@@ -859,8 +862,8 @@
             //     alt: "#141817"
             // },
             {
-                back: "#989da0",
-                main: "#593579",
+                back: "#80878b",
+                main: "#3f1c5f",
                 alt: "#edefbd"
             },
             {
@@ -1266,6 +1269,11 @@
                     case 3:
                         containerEl.style = "margin: 0; border-left: 1.5em solid " + colours[colourset].alt + ";";
                         authorEl.style = "color:" + colours[colourset].alt + ";";
+                        hrEl.style = "border: 2px solid " + colours[colourset].back;
+                        break;
+                    case 4:
+                        bookEl.style = "font-family:" + pick(fonts, i) + "; background: linear-gradient(180deg, " + colours[colourset].back + " 0%, " + colours[colourset].alt + " 250%) !important; color: " + colours[colourset].main + ";";
+                        authorEl.style = "color:" + colours[colourset].alt + "; text-shadow: 2px 2px 0 rgba(40, 40, 40, 0.5);";
                         hrEl.style = "border: 2px solid " + colours[colourset].back;
                         break;
                     default:
