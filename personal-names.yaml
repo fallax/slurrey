@@ -149,6 +149,12 @@ given-names:
     - sack
     - charcuterie
     - pessary
+    - denial
+    - dive
+    - lozenge
+    - innard
+    - garotte
+    - jute
   positive:
     - flora
     - arabella
@@ -178,10 +184,6 @@ given-names:
     - virginia
     - dorcas
     - ophelia
-    - denial
-    - dive
-    - lozenge
-    - innard
   standard:
     - susan
     - derek
@@ -494,6 +496,11 @@ family-names:
     - wrest
     - gaunt
     - pylon
+    - portend
+    - foist
+    - scant
+    - abscond
+    - bridle
   positive:
     - windsor
     - beaumont
