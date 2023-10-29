@@ -165,6 +165,8 @@ given-names:
     - lettuce
     - fib
     - colic
+    - camembert
+    - stymie
   positive:
     - flora
     - arabella
@@ -517,6 +519,7 @@ family-names:
     - pillory
     - laminator
     - tantrum
+    - oblong
   positive:
     - windsor
     - beaumont
