@@ -167,6 +167,8 @@ given-names:
     - colic
     - camembert
     - stymie
+    - phobia
+    - brute
   positive:
     - flora
     - arabella
@@ -520,6 +522,9 @@ family-names:
     - laminator
     - tantrum
     - oblong
+    - brink
+    - truant
+    - stuck
   positive:
     - windsor
     - beaumont
