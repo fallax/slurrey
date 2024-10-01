@@ -4,33 +4,52 @@ manual:
   - Lucy Morell
   - Lee Delamere
   - Dean Taunton
+  - Lars Straw
+  - Anguish Murray
+  - Grift Jones
+  - Cyan Hyde
 given-names:
   negative:
     - abandon
     - absentia
+    - abyss
     - alas
     - alive
     - almond
     - altimeter
     - ambulance
+    - ammonia
+    - anathema
+    - anatomy
+    - angular
     - annelid
+    - anomaly
+    - antipathy
     - araldite
     - artifice
     - atonia
     - avarice
     - baleen
+    - barge
     - barren
     - baryon
+    - bechamel
     - bevel
     - bonjela
+    - brassica
     - brawn
+    - brine
+    - briquette
     - brute
+    - calamine
     - callus
     - camembert
+    - canteen
     - carton
     - casserole
     - cassette
     - catheter
+    - cavalcade
     - ceefax
     - celery
     - cellulose
@@ -42,36 +61,63 @@ given-names:
     - charnel
     - chlorine
     - cilia
+    - clandestine
+    - clearance
     - cloaca
     - cloret
     - codeine
     - colic
+    - collate
+    - conduit
+    - constant
     - countenance
     - credenza
+    - crevice
+    - crinoline
+    - crisis
     - curette
     - curfew
+    - custard
+    - debacle
     - denial
+    - denizen
     - dentine
     - deter
     - dirge
     - dive
     - drain
+    - dreg
+    - duplicity
     - ebb
+    - edam
+    - edict
+    - edifice
+    - effigy
     - effluvia
+    - ephemera
+    - ethane
     - emnity
     - enamel
+    - ephemera
+    - facsimile
+    - fail
     - falter
+    - faustian
     - favela
     - favela
     - fawn
     - felony
     - felony
+    - feral
+    - fiasco
     - fib
     - flan
     - florid
     - folly
     - fontanelle
+    - fracas
     - fray
+    - gaffe
     - gannet
     - garotte
     - gelatine
@@ -81,90 +127,140 @@ given-names:
     - grave
     - grayish
     - grief
+    - grim
+    - grist
+    - guernica
     - hack
+    - halon
     - hairy
+    - hangry
     - harlot
     - harried
     - haslet
     - haslet
     - hazard
+    - hazmat
     - heathen
     - heave
     - hernia
     - hessian
     - histamine
+    - humidor
     - innard
     - janky
     - jute
+    - keratin
+    - kerosene
+    - kidney
     - knarl
     - lanolin
+    - larva
     - latrine
     - lawn
     - leotard
     - lettuce
     - linseed
+    - lint
     - litany
+    - louse
     - lozenge
+    - lull
     - malady
     - malaise
     - malice
     - margarine
     - maudlin
     - median
+    - melamine
+    - memoriam
     - mohair
+    - mollify
+    - moratoria
     - myelin
+    - naïve
+    - nausea
     - nicoise
     - norad
+    - oilier
     - olestra
     - omen
+    - oopsie
+    - parapet
+    - pariah
+    - pasty
+    - penance
     - pessary
     - petri
+    - pewter
     - phial
     - phobia
     - pilfer
     - pleura
+    - ploy
     - prion
     - prude
+    - prune
+    - pruno
     - punnet
     - raglan
     - raglan
     - rant
+    - ravine
     - regalia
     - rennet
     - retina
     - retina
+    - ribald
     - rhodesia
     - rotiserrie
     - rubella
+    - ruckus
+    - ruffian
     - sack
+    - saline
     - satchel
     - seethe
     - shame
     - shant
     - sinus
-    - sinus
+    - sliver
+    - spirulina
+    - sprue
     - stave
     - stave
     - stevia
     - stymie
+    - subdue
     - tabbard
+    - tamarind
     - tarry
+    - tat
+    - taupe
     - teeter
     - thermos
     - threnody
     - tirade
     - tissue
+    - tombola
+    - towelette
+    - trauma
+    - tray
     - tremor
     - trivia
+    - trolley
+    - tureen
     - turnip
+    - tyrant
     - ulna
     - vanilla
     - varicella
     - vendetta
     - violent
     - viscera
+    - wail
     - wallow
     - wane
+    - wince
     - withdrew
     - witherward
     - xanthan
@@ -433,41 +529,57 @@ family-names:
     - "null"
     - abrupt
     - abscond
+    - abstain
     - affront
     - agar
+    - allbran
     - arson
     - askew
     - avert
+    - balk
+    - barrage
     - beeching
     - bellow
     - bitumen
     - blackwater
     - bland
     - bollard
+    - brash
     - bridle
+    - brigand
     - brink
     - buckfast
     - burden
+    - burst
+    - canister
+    - carapace
     - chamberlain
     - chilblain
     - clampdown
     - clout
+    - codliver
     - coward
     - crater
+    - crimes
     - cromwell
     - crouch
     - currant
     - dander
     - default
+    - dessicant
     - dispencer
+    - dough
     - dredge
     - dross
+    - effluent
     - falstart
     - fawkes
     - flake
     - flaw
     - flinch
+    - foible
     - foist
+    - foolhardy
     - forthwith
     - foyer
     - frantic
@@ -477,17 +589,24 @@ family-names:
     - gall
     - gall
     - gaunt
+    - gingham
     - gland
     - gore
     - grating
     - grift
     - gritty
     - gross
+    - grudge
+    - gubbins
     - gulley
+    - gutteral
     - harridan
+    - harsh
     - headwinds
     - heap
+    - hearse
     - hencewith
+    - henstooth
     - heritage
     - hinder
     - hohlraum
@@ -495,40 +614,70 @@ family-names:
     - husk
     - ides
     - knotweed
+    - lackey
     - lambast
     - laminator
     - languish
     - lavatory
+    - lesser
+    - lewd
+    - macabre
     - madden
+    - malign
+    - maw
     - mayhem
     - melt
+    - mink
+    - monolith
     - moribund
     - moult
+    - mulch
     - napkin
     - nought
     - numb
     - oblong
+    - onslaught
+    - overly
+    - pamphlet
+    - pedant
     - peevish
+    - perish
     - pillory
     - plummet
+    - pomade
+    - poppycock
     - portend
+    - pungent
     - pylon
+    - rummage
     - salad
     - scalding
     - scant
     - scurry
     - seabottom
     - seams
+    - sever
     - shill
     - spent
+    - spigot
+    - spindly
+    - stain
     - stuck
+    - stymie
     - swab
     - swill
     - tallow
     - tantrum
     - tarnish
     - torrent
+    - tract
+    - treason
+    - trestle
     - truant
+    - underhand
+    - underling
+    - vestige
+    - waiver
     - wart
     - wellhard
     - whine
