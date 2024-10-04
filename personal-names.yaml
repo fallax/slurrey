@@ -8,6 +8,7 @@ manual:
   - Anguish Murray
   - Grift Jones
   - Cyan Hyde
+  - Mia Culper
 given-names:
   negative:
     - abandon
@@ -75,6 +76,7 @@ given-names:
     - crevice
     - crinoline
     - crisis
+    - crony
     - curette
     - curfew
     - custard
@@ -530,6 +532,7 @@ family-names:
     - askew
     - avert
     - balk
+    - ballast
     - barrage
     - beeching
     - bellow
@@ -561,6 +564,7 @@ family-names:
     - default
     - dessicant
     - dispencer
+    - distend
     - dough
     - dredge
     - dross
@@ -568,6 +572,7 @@ family-names:
     - falstart
     - fawkes
     - flake
+    - flask
     - flaw
     - flinch
     - foible
@@ -603,6 +608,8 @@ family-names:
     - heritage
     - hinder
     - hohlraum
+    - holdall
+    - hollow
     - honeybucket
     - husk
     - ides
@@ -621,6 +628,7 @@ family-names:
     - mayhem
     - melt
     - mink
+    - mockery
     - monolith
     - moribund
     - moult
@@ -642,6 +650,7 @@ family-names:
     - portend
     - pungent
     - pylon
+    - remnant
     - rummage
     - salad
     - scalding
@@ -649,6 +658,7 @@ family-names:
     - scurry
     - seabottom
     - seams
+    - seethe
     - sever
     - shill
     - spent
@@ -661,6 +671,7 @@ family-names:
     - swill
     - tallow
     - tantrum
+    - tariff
     - tarnish
     - torrent
     - tract
@@ -675,7 +686,9 @@ family-names:
     - wellhard
     - whine
     - wiles
+    - wreak
     - wrest
+    - yapping
     - zoster
   positive:
     - windsor
