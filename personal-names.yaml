@@ -222,6 +222,7 @@ given-names:
     - sliver
     - spirulina
     - sprue
+    - standard
     - stave
     - stevia
     - stymie
@@ -534,12 +535,15 @@ family-names:
     - balk
     - ballast
     - barrage
+    - bauble
     - beeching
     - behest
     - bellow
+    - bickering
     - bitumen
     - blackwater
     - bland
+    - blithely
     - bollard
     - brash
     - bridle
@@ -560,6 +564,8 @@ family-names:
     - crimes
     - cromwell
     - crouch
+    - crust
+    - cull
     - currant
     - dander
     - default
@@ -572,8 +578,11 @@ family-names:
     - effluent
     - falstart
     - fawkes
+    - fervent
+    - fissure
     - flake
     - flask
+    - flaunt
     - flaw
     - flinch
     - foible
@@ -588,6 +597,7 @@ family-names:
     - gall
     - gall
     - gaunt
+    - gimmick
     - gingham
     - gland
     - gore
@@ -622,8 +632,10 @@ family-names:
     - lavatory
     - lesser
     - lewd
+    - lowly
     - macabre
     - madden
+    - makeshift
     - malign
     - maw
     - mayhem
@@ -631,14 +643,17 @@ family-names:
     - mink
     - mockery
     - monolith
+    - morass
     - moribund
     - moult
     - mulch
+    - mundane
     - napkin
     - nought
     - numb
     - oblong
     - onslaught
+    - outhouse
     - overly
     - pamphlet
     - pedant
@@ -646,12 +661,14 @@ family-names:
     - perish
     - pillory
     - plummet
+    - podule
     - pomade
     - poppycock
     - portend
     - pungent
     - pylon
     - remnant
+    - residue
     - rummage
     - salad
     - scalding
@@ -660,12 +677,15 @@ family-names:
     - seabottom
     - seams
     - seethe
+    - seldom
     - sever
     - shill
     - spent
     - spigot
     - spindly
+    - stagnant
     - stain
+    - stifle
     - stuck
     - stymie
     - swab
@@ -674,6 +694,8 @@ family-names:
     - tantrum
     - tariff
     - tarnish
+    - taunt
+    - thwart
     - torrent
     - tract
     - treason
