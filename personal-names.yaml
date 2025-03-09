@@ -9,15 +9,18 @@ manual:
   - Grift Jones
   - Cyan Hyde
   - Mia Culper
+  - Annabelle Husbandry
 given-names:
   negative:
     - abandon
     - absentia
     - abyss
+    - acrid
     - alas
     - alive
     - almond
     - altimeter
+    - alum
     - ambulance
     - ammonia
     - anathema
@@ -27,8 +30,11 @@ given-names:
     - anomaly
     - antipathy
     - araldite
+    - aroma
     - artifice
+    - artillery
     - atonia
+    - atora
     - avarice
     - baleen
     - barge
@@ -40,17 +46,20 @@ given-names:
     - brassica
     - brawn
     - brine
+    - brink
     - briquette
     - brute
     - calamine
     - callus
     - camembert
     - canteen
+    - carrion
     - carton
     - casserole
     - cassette
     - catheter
     - cavalcade
+    - cavern
     - ceefax
     - celery
     - cellulose
@@ -60,6 +69,7 @@ given-names:
     - chance
     - charcuterie
     - charnel
+    - chinchilla
     - chlorine
     - cilia
     - clandestine
@@ -73,6 +83,7 @@ given-names:
     - constant
     - countenance
     - credenza
+    - cress
     - crevice
     - crinoline
     - crisis
@@ -81,6 +92,7 @@ given-names:
     - curfew
     - custard
     - debacle
+    - deign
     - denial
     - denizen
     - dentine
@@ -114,6 +126,7 @@ given-names:
     - florid
     - folly
     - fontanelle
+    - formalin
     - fracas
     - fray
     - gaffe
@@ -144,13 +157,17 @@ given-names:
     - hessian
     - histamine
     - humidor
+    - immensity
     - innard
+    - irate
+    - jaded
     - janky
     - jute
     - keratin
     - kerosene
     - kidney
     - knarl
+    - lacuna
     - lanolin
     - larva
     - latrine
@@ -187,6 +204,7 @@ given-names:
     - pariah
     - pasty
     - penance
+    - peril
     - pessary
     - petri
     - pewter
@@ -200,18 +218,23 @@ given-names:
     - prune
     - pruno
     - punnet
+    - quinine
     - raglan
     - rant
     - ravine
     - regalia
     - rennet
+    - reticent
     - retina
     - ribald
+    - ritual
     - rhodesia
     - rotiserrie
     - rubella
     - ruckus
     - ruffian
+    - rupture
+    - sachet
     - sack
     - saline
     - satchel
@@ -242,6 +265,7 @@ given-names:
     - trauma
     - tray
     - tremor
+    - trinket
     - trivia
     - trolley
     - tureen
@@ -251,6 +275,7 @@ given-names:
     - vanilla
     - varicella
     - vendetta
+    - vestigial
     - violent
     - viscera
     - wail
@@ -539,6 +564,7 @@ family-names:
     - beeching
     - behest
     - bellow
+    - benthic
     - bickering
     - bitumen
     - blackwater
@@ -582,12 +608,14 @@ family-names:
     - fissure
     - flake
     - flask
+    - flattery
     - flaunt
     - flaw
     - flinch
     - foible
     - foist
     - foolhardy
+    - forthright
     - forthwith
     - foyer
     - frantic
@@ -622,6 +650,7 @@ family-names:
     - holdall
     - hollow
     - honeybucket
+    - hooligan
     - husk
     - ides
     - knotweed
@@ -630,6 +659,7 @@ family-names:
     - laminator
     - languish
     - lavatory
+    - lecher
     - lesser
     - lewd
     - lowly
@@ -686,6 +716,7 @@ family-names:
     - stagnant
     - stain
     - stifle
+    - strewth
     - stuck
     - stymie
     - swab
@@ -695,6 +726,7 @@ family-names:
     - tariff
     - tarnish
     - taunt
+    - thrice
     - thwart
     - torrent
     - tract
@@ -706,7 +738,9 @@ family-names:
     - vestige
     - waiver
     - wart
+    - watery
     - wellhard
+    - whims
     - whine
     - wiles
     - wreak
